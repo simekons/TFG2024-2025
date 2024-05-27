@@ -1,5 +1,29 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2328812278793551908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/event_1/db
+  m_EditorClassIdentifier: 
+  Name: db
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1627874230
+    data2: 3533966375
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-1674007409144015922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,10 +39,10 @@ MonoBehaviour:
   Path: ../../FMOD/tfgdv/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638505073887080198
+  lastModified: 638524219805314580
   FileSizes:
   - Name: Desktop
-    Value: 712
+    Value: 800
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -35,14 +59,43 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -1674007409144015922}
   - {fileID: 4750725932187321627}
-  EditorEvents: []
+  EditorEvents:
+  - {fileID: 1674306835197691407}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4750725932187321627}
   StringsBanks:
   - {fileID: -1674007409144015922}
-  cacheTime: 638505073887080198
+  cacheTime: 638524219805314580
   cacheVersion: 131593
+--- !u!114 &1674306835197691407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/event_1
+  m_EditorClassIdentifier: 
+  Path: event:/event_1
+  Guid:
+    Data1: -2089455303
+    Data2: 1303547532
+    Data3: -66943596
+    Data4: -1079162821
+  Banks:
+  - {fileID: 4750725932187321627}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -2328812278793551908}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2659
 --- !u!114 &4750725932187321627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58,8 +111,8 @@ MonoBehaviour:
   Path: ../../FMOD/tfgdv/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638505073886862682
+  lastModified: 638524219805284544
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 25024
   Exists: 1
