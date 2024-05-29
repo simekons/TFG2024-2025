@@ -13,34 +13,43 @@ using UnityEngine.SceneManagement;
 public class AudioManager : MonoBehaviour
 {
     public Dictionary<int, FMODUnity.StudioEventEmitter> events;
-    public Dictionary<int, float> audiometry;
+    public float[] audiometry;
+
+    public static AudioManager instance { get; private set; }
 
     /// <summary>
-    /// Initializes the Dictionaries that will be used.
+    /// Initializes the Dictionaries that will be used and the instance.
     /// </summary>
     private void Awake()
     {
         events = new Dictionary<int, FMODUnity.StudioEventEmitter>();
-        audiometry = new Dictionary<int, float>();
+        initializeAudiometry();
+
+        if (instance != null)
+        {
+            print("There's already an instance of AudioManager");
+        }
+        instance = this;
     }
+
+    /// <summary>
+    /// Empty constructor.
+    /// </summary>
+    public AudioManager() { }
 
     /// <summary>
     /// Setup of all the sounds in the current scene and their volume.
     /// </summary>
-    void Start()
-    {
-        if (SceneManager.GetActiveScene().name == "AUDIOMETRY")
-        {
+    void Start() {
+        if (SceneManager.GetActiveScene().name != "AUDIOMETRY") {
             // We first find all the objects in the current scene.
             List<GameObject> objectsInScene = new List<GameObject>();
             Scene scene = SceneManager.GetActiveScene();
             scene.GetRootGameObjects(objectsInScene);
 
             // Then we grab a reference to the FMOD Studio Event Emitter component they have (if they have it).
-            for (int i = 0; i < objectsInScene.Count; i++)
-            {
-                if (objectsInScene[i].GetComponentInChildren<FMODUnity.StudioEventEmitter>())
-                {
+            for (int i = 0; i < objectsInScene.Count; i++) {
+                if (objectsInScene[i].GetComponentInChildren<FMODUnity.StudioEventEmitter>()) {
                     events.Add(i, objectsInScene[i].GetComponentInChildren<FMODUnity.StudioEventEmitter>());
                 }
             }
@@ -53,11 +62,9 @@ public class AudioManager : MonoBehaviour
     /// <summary>
     /// Updates the volume of the sounds according to the value received after the audiometry.
     /// </summary>
-    private void updateVolume()
-    {
+    private void updateVolume() {
         float value = 1.0f;
-        for (int i = 0; i < events.Count; ++i)
-        {
+        for (int i = 0; i < events.Count; ++i) {
             events[i].EventInstance.setParameterByName("db", value);
 
             // ---------------------- It needs to check the frequency of the sound before updating it. ----------------------
@@ -67,9 +74,12 @@ public class AudioManager : MonoBehaviour
     /// <summary>
     /// Given the sound, its frequency and the volume needed to hear it, we calculate the resulting volume.
     /// </summary>
-    private int volume()
-    {
-        return 0;
+    private float calculateVolume(float volume) {
+        volume *= 70;
+        volume -= 60;
+        print(volume);
+
+        return volume;
     }
 
     /// <summary>
@@ -77,9 +87,13 @@ public class AudioManager : MonoBehaviour
     /// </summary>
     /// <param name="index"> Frequency index. </param>
     /// <param name="volume"> Volume needed to hear the sound. </param>
-    public void answer(int index, float volume)
-    {
-        audiometry[index] = volume;
+    public void answer(int index, float volume) {
+
+        audiometry[index] = calculateVolume(volume);
+    }
+
+    private void initializeAudiometry() {
+        audiometry = new float[8];
     }
 }
 
