@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{cf6e2d3b-81b1-4943-944f-55eefd89afb2}">
+		<property name="name">
+			<value>Right</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{67e6c810-088f-42f9-b4de-8cc711e9055b}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{f5147785-46fd-4d1b-9436-2c100b141560}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{b6c319d4-a248-4bfe-82df-b16cf7d79ff2}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{67e6c810-088f-42f9-b4de-8cc711e9055b}">
+		<relationship name="effects">
+			<destination>{108aad4e-24d9-4c17-9421-b3bf6b203753}</destination>
+			<destination>{d388f257-3731-4304-a408-80338f0db6ac}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{f5147785-46fd-4d1b-9436-2c100b141560}" />
+	<object class="MixerBusFader" id="{108aad4e-24d9-4c17-9421-b3bf6b203753}" />
+	<object class="ChannelMixEffect" id="{d388f257-3731-4304-a408-80338f0db6ac}">
+		<property name="outputGrouping">
+			<value>2</value>
+		</property>
+		<property name="gain00">
+			<value>-80</value>
+		</property>
+		<property name="gain02">
+			<value>-80</value>
+		</property>
+		<property name="gain03">
+			<value>-80</value>
+		</property>
+		<property name="gain04">
+			<value>-80</value>
+		</property>
+		<property name="gain05">
+			<value>-80</value>
+		</property>
+	</object>
+</objects>

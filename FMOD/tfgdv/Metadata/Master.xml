@@ -20,8 +20,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f57edd1a-aa7c-43eb-91d3-b183ea6125b8}">
+		<property name="surroundStereoSeparation">
+			<value>180</value>
+		</property>
+		<property name="surroundStereoAxis">
+			<value>-180</value>
+		</property>
 		<property name="overridingOutputFormat">
 			<value>2</value>
+		</property>
+		<property name="disabledSpeakers">
+			<value>51</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{cc8fc700-81d7-4703-938d-585b51d7aef3}" />

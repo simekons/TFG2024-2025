@@ -30,6 +30,7 @@ public class AudioManager : MonoBehaviour
             print("There's already an instance of AudioManager");
         }
         instance = this;
+        DontDestroyOnLoad(this);
     }
 
     /// <summary>
@@ -56,6 +57,14 @@ public class AudioManager : MonoBehaviour
 
             // And we update the volume of the sound by the value of the audiometry.
             updateVolume();
+        } 
+    }
+
+    private void Update()
+    {
+        for (int i = 0; i < 8; i++)
+        {
+            print("LA AUDIOMETRIA ES : " + i + " " + audiometry[i]);
         }
     }
 
@@ -72,24 +81,13 @@ public class AudioManager : MonoBehaviour
     }
 
     /// <summary>
-    /// Given the sound, its frequency and the volume needed to hear it, we calculate the resulting volume.
-    /// </summary>
-    private float calculateVolume(float volume) {
-        volume *= 70;
-        volume -= 60;
-        print(volume);
-
-        return volume;
-    }
-
-    /// <summary>
     /// Method associated to the audiometry canvas. It will update the values of the Dictionary according to the answers of the user.
     /// </summary>
     /// <param name="index"> Frequency index. </param>
     /// <param name="volume"> Volume needed to hear the sound. </param>
     public void answer(int index, float volume) {
 
-        audiometry[index] = calculateVolume(volume);
+        audiometry[index] = volume;
     }
 
     private void initializeAudiometry() {

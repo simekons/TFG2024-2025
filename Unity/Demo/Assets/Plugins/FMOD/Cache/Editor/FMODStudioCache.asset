@@ -15,11 +15,40 @@ MonoBehaviour:
   Path: ../../FMOD/tfgdv/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638525883316470519
+  lastModified: 638526136556847446
   FileSizes:
   - Name: Desktop
-    Value: 61792
+    Value: 13055328
   Exists: 1
+--- !u!114 &-5637148662414651232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Audiometry
+  m_EditorClassIdentifier: 
+  Path: event:/Audiometry
+  Guid:
+    Data1: -555015369
+    Data2: 1298945207
+    Data3: 364208795
+    Data4: 1217636969
+  Banks:
+  - {fileID: -8347492499960178630}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6918289257587832656}
+  - {fileID: -1044506228625860547}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-4439657933259534792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,10 +64,10 @@ MonoBehaviour:
   Path: ../../FMOD/tfgdv/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638525883316470519
+  lastModified: 638526136556892744
   FileSizes:
   - Name: Desktop
-    Value: 990
+    Value: 1112
   Exists: 1
 --- !u!114 &-3141187188368411399
 MonoBehaviour:
@@ -94,7 +123,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 497
---- !u!114 &-1767566742779079546
+--- !u!114 &-1044506228625860547
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,7 +133,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/event_1/db
+  m_Name: parameter:/Audiometry/db
   m_EditorClassIdentifier: 
   Name: db
   StudioPath: 
@@ -134,18 +163,19 @@ MonoBehaviour:
   - {fileID: -4439657933259534792}
   - {fileID: -8347492499960178630}
   EditorEvents:
-  - {fileID: 4720509877647015342}
   - {fileID: 80892926321997395}
   - {fileID: -3035784881357447065}
   - {fileID: -3141187188368411399}
   - {fileID: 9040412061580036773}
   - {fileID: 3681104127424554342}
+  - {fileID: -5637148662414651232}
+  - {fileID: 1259704759928521421}
   EditorParameters: []
   MasterBanks:
   - {fileID: -8347492499960178630}
   StringsBanks:
   - {fileID: -4439657933259534792}
-  cacheTime: 638525883316470519
+  cacheTime: 638526136556892744
   cacheVersion: 131593
 --- !u!114 &80892926321997395
 MonoBehaviour:
@@ -174,6 +204,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 501
+--- !u!114 &1259704759928521421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/New Event
+  m_EditorClassIdentifier: 
+  Path: event:/New Event
+  Guid:
+    Data1: 1111990776
+    Data2: 1248013540
+    Data3: 1642617999
+    Data4: -967097777
+  Banks:
+  - {fileID: -8347492499960178630}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7740316968824901418}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &3681104127424554342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,7 +259,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 495
---- !u!114 &4720509877647015342
+--- !u!114 &6918289257587832656
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -210,25 +268,45 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/event_1
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Audiometry/hz
   m_EditorClassIdentifier: 
-  Path: event:/event_1
-  Guid:
-    Data1: -2089455303
-    Data2: 1303547532
-    Data3: -66943596
-    Data4: -1079162821
-  Banks:
-  - {fileID: -8347492499960178630}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters:
-  - {fileID: -1767566742779079546}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2659
+  Name: hz
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 3252292724
+    data2: 3767558893
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &7740316968824901418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/New Event/hz
+  m_EditorClassIdentifier: 
+  Name: hz
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 3252292724
+    data2: 3767558893
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &9040412061580036773
 MonoBehaviour:
   m_ObjectHideFlags: 0
