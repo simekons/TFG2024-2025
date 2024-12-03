@@ -27,7 +27,7 @@
 			<value>-180</value>
 		</property>
 		<property name="overridingOutputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="disabledSpeakers">
 			<value>51</value>

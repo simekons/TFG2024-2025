@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{77584da0-9432-40a0-a3a2-026df0a6e208}">
 		<property name="name">
-			<value>hz</value>
+			<value>HZ</value>
 		</property>
 		<relationship name="folder">
 			<destination>{1c7de348-db3c-47c0-9d5b-02ceae4df1a8}</destination>
