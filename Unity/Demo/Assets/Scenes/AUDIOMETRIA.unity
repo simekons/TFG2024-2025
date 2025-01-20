@@ -390,7 +390,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: AUDIOMETRIA
+  m_text: "AUDIOMETR\xCDA"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1419,9 +1419,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Sonar\xE1 primero el oido izquierdo y despu\xE9s el derecho.\n\nSi no
-    escuchas el sonido le dar\xE1s al boton \"+ Volumen\" y si escuchas minimamente
-    el sonido le dar\xE1s al boton \"Next\".\n\nTe avisaremos al cambiar de oido."
+  m_text: "Sonar\xE1 primero el o\xEDdo izquierdo y despu\xE9s el derecho.\n\nSi
+    no escuchas el sonido le dar\xE1s al boton \"+ Volumen\" y si escuchas m\xEDnimamente
+    el sonido le dar\xE1s al boton \"Next\".\n\nTe avisaremos al cambiar de o\xEDdo."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
