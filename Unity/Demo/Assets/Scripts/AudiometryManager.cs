@@ -5,6 +5,7 @@ using UnityEngine;
 using FMOD.Studio;
 using System;
 using Unity.VisualScripting.FullSerializer;
+using System.IO;
 
 public class AudiometryManager : MonoBehaviour
 {
@@ -112,25 +113,32 @@ public class AudiometryManager : MonoBehaviour
         }
     }
 
-    public String PrintResulatdos()
+    public void SaveResultados()
     {
-        List<int> frecuencias = new List<int> { 250, 500, 1000, 2000, 4000, 8000 };
+        int[] frecuencias = new int[] { 250, 500, 1000, 2000, 4000, 8000 };
 
-
-        String izquierda = "Izquierda: ";
+        // Generar el texto para el archivo
+        string izquierda = "Left\n";
         for (int i = 0; i < guardarLeftHZ.Length; i++)
         {
-            izquierda = izquierda + frecuencias[i].ToString() + " Hz = " + guardarLeftHZ[i].ToString() + " dB, ";
+            izquierda += $"{frecuencias[i]} {guardarLeftHZ[i]}\n";
         }
-        Debug.Log(izquierda);
 
-        String derecha = "Derecha: ";
+        string derecha = "Right\n";
         for (int i = 0; i < guardarRightHZ.Length; i++)
         {
-            derecha = derecha + frecuencias[i].ToString() + " Hz = " + guardarRightHZ[i].ToString() + " dB, ";
+            derecha += $"{frecuencias[i]} {guardarRightHZ[i]}\n";
         }
-        Debug.Log(derecha);
 
-        return (izquierda + "\n" + derecha + "\n");
+        string resultados = izquierda + derecha;
+
+        // Ruta para guardar el archivo
+        string path = "Assets/Python/datos.txt";
+
+        // Guardar el archivo
+        File.WriteAllText(path, resultados);
+
+        GameManager.Instance.SetAudiometry(true, guardarLeftHZ);
+        GameManager.Instance.SetAudiometry(false, guardarRightHZ);
     }
 }

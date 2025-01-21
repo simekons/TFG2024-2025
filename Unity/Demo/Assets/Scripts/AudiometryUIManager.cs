@@ -7,7 +7,7 @@ public class AudiometryUIManager : MonoBehaviour
 {
     public static AudiometryUIManager instance { get; private set; }
 
-    [SerializeField] private GameObject botonVol, botonStart, botonNext;
+    [SerializeField] private GameObject botonVol, botonStart, botonNext, botonExit, graphicImage;
     [SerializeField] private TMP_Text text, textVol;
 
     private bool left, end;
@@ -50,17 +50,18 @@ public class AudiometryUIManager : MonoBehaviour
         {
             botonVol.SetActive(false);
             botonNext.SetActive(false);
+            botonExit.SetActive(true);
             end = true;
 
             AudiometryManager.instance.StopAudiometry();
-
-            text.text = "Finalizó la prueba\n" + AudiometryManager.instance.PrintResulatdos();
-            text.fontSize = 18;
+            AudiometryManager.instance.SaveResultados();
+            graphicImage.SetActive(true);
         }
     }
 
     public void EmpezarAudiometria()
     {
+        botonExit.SetActive(false);
         botonVol.SetActive(true);
         botonNext.SetActive(true);
         botonStart.SetActive(false);
