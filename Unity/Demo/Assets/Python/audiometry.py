@@ -37,7 +37,7 @@ def plot_colores():
             'Moderado': [40,55,'#5dade2'],
             'Moderadamente Severo': [55,70,'#3498d8'],
             'Severo': [70,90,'#2e86c1'],
-            'Profundo': [90,120,'#2874a6']}
+            'Profundo': [90,130,'#2874a6']}
 
     for gravedad in niveles.keys():
         min_db = niveles[gravedad][0]
@@ -81,7 +81,7 @@ def plot_audiograma(audiograma, colores=False):
     plt.plot(audiograma['Right'].keys(), audiograma['Right'].values(), 'o-', fillstyle='none', color='r', label='Derecha')
         
     plt.gca().set_xscale('log')
-    plt.gca().axis([100, 10000, -10, 120])
+    plt.gca().axis([100, 10000, -10, 130])
     plt.gca().set_xticks([125,250,500,1000,2000,4000,8000])
     plt.gca().set_xticklabels([125,250,500,1000,2000,4000,8000])
     plt.grid()

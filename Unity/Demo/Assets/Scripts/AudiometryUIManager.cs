@@ -84,4 +84,9 @@ public class AudiometryUIManager : MonoBehaviour
         if (vol >= 130)
             textVol.text = "MAX";
     }
+
+    public void SetTextVol()
+    {
+        textVol.text = "+ Volumen";
+    }
 }

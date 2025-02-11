@@ -31,12 +31,10 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(nameScene, LoadSceneMode.Single);
     }
 
-    public void SetAudiometry(bool left, int[] audiometry)
+    public void SetAudiometry(int[] audiometryLeft, int[] audiometryRight)
     {
-        if (left)
-            audiometry.CopyTo(leftHZ, 0);
-        else
-            audiometry.CopyTo(rightHZ, 0);
+        audiometryLeft.CopyTo(leftHZ, 0);
+        audiometryRight.CopyTo(rightHZ, 0);
     }
 
     public void SetGlobalParameter(string parameterName, float value)

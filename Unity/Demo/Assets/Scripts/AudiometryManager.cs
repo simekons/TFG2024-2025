@@ -89,12 +89,13 @@ public class AudiometryManager : MonoBehaviour
     public void NextSound()
     {
         if (ear)
-            guardarLeftHZ[sonidoActual] = volumen;
+            guardarLeftHZ[ordenSonidos[sonidoActual] - 1] = volumen;
         else
-            guardarRightHZ[sonidoActual] = volumen;
+            guardarRightHZ[ordenSonidos[sonidoActual] - 1] = volumen;
 
         volumen = 0;
         sonidoActual++;
+        AudiometryUIManager.instance.SetTextVol();
         actualEar.setParameterByName("HZ", ordenSonidos[sonidoActual]);
         actualEar.setParameterByName("dB", volumen);
     }
@@ -123,12 +124,14 @@ public class AudiometryManager : MonoBehaviour
         {
             izquierda += $"{frecuencias[i]} {guardarLeftHZ[i]}\n";
         }
+        Debug.Log(izquierda);
 
         string derecha = "Right\n";
         for (int i = 0; i < guardarRightHZ.Length; i++)
         {
             derecha += $"{frecuencias[i]} {guardarRightHZ[i]}\n";
         }
+        Debug.Log(derecha);
 
         string resultados = izquierda + derecha;
 
@@ -138,7 +141,6 @@ public class AudiometryManager : MonoBehaviour
         // Guardar el archivo
         File.WriteAllText(path, resultados);
 
-        GameManager.Instance.SetAudiometry(true, guardarLeftHZ);
-        GameManager.Instance.SetAudiometry(false, guardarRightHZ);
+        GameManager.Instance.SetAudiometry(guardarLeftHZ, guardarRightHZ);
     }
 }
