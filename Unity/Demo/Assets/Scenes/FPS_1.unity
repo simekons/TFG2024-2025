@@ -3280,7 +3280,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &665691449
 Transform:
   m_ObjectHideFlags: 0
@@ -7079,11 +7079,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -557985418
-      Data2: 1301843800
-      Data3: 786129318
-      Data4: 1401212331
-    Path: event:/Audiometry/RAudiometry
+      Data1: 2072580838
+      Data2: 1302552569
+      Data3: -1915188850
+      Data4: 258101391
+    Path: event:/New Event 3
   Event: 
   PlayEvent: 1
   StopEvent: 0
