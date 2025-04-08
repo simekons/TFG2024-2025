@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{743685ad-e449-468e-a7a4-32c005617ea5}">
+		<property name="assetPath">
+			<value>Juego FPS/shotSound.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.089229166666666665</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{39adb249-9b5c-44e8-9a1a-a4f7787a36d0}</destination>
+		</relationship>
+	</object>
+</objects>

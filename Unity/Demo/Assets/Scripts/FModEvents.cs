@@ -5,7 +5,7 @@ using FMODUnity;
 
 public class FModEvents : MonoBehaviour
 {
-    [field: Header("Red")]
+    /*[field: Header("Red")]
     [field: SerializeField] public EventReference red { get; private set; }
 
     [field: Header("Green")]
@@ -18,8 +18,10 @@ public class FModEvents : MonoBehaviour
     [field: SerializeField] public EventReference yellow { get; private set; }
 
     [field: Header("Pink")]
-    [field: SerializeField] public EventReference pink { get; private set; }
+    [field: SerializeField] public EventReference pink { get; private set; }*/
 
+    [field: Header("Sonidos")]
+    [field: SerializeField] public EventReference[] sounds { get; private set; }
 
     public static FModEvents instance { get; private set; }
 

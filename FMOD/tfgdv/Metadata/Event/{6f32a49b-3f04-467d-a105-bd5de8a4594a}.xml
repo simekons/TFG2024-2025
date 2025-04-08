@@ -5,7 +5,7 @@
 			<value>Blue</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{44e17fd2-3b27-49ee-9903-0db298dca044}</destination>
@@ -113,6 +113,7 @@
 	<object class="MixerBusEffectChain" id="{7b1b84f4-fa18-4d9e-a4e8-a2b011249498}">
 		<relationship name="effects">
 			<destination>{b2aafcbc-e27b-4cb4-8882-91e8ab167f44}</destination>
+			<destination>{909763a5-8401-43cb-a531-32dec74a9352}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1d76ee03-41a4-4467-9dec-9cf999e56d5d}" />
@@ -124,5 +125,10 @@
 	</object>
 	<object class="MixerBusPanner" id="{aa191f79-7226-4564-8a66-a2e25e529d99}" />
 	<object class="MixerBusFader" id="{b2aafcbc-e27b-4cb4-8882-91e8ab167f44}" />
+	<object class="SpatialiserEffect" id="{909763a5-8401-43cb-a531-32dec74a9352}">
+		<property name="soundSize">
+			<value>30</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{1907f639-8fc0-4520-ad21-bc5f7cc0aa63}" />
 </objects>
