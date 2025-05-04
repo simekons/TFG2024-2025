@@ -25,6 +25,8 @@ public class GameManager : MonoBehaviour
 
         leftHZ = new int[6];
         rightHZ = new int[6];
+        Tracker.Instance("TFG", Telemetry.Persistance.PersistanceType.File, Telemetry.Serialization.SerializeType.JSON, "datos");
+        Tracker.getInstance();
     }
 
     public void ChangeScene(string nameScene)

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Telemetry;
 using UnityEngine;
 
 public class FPS_Enemy : MonoBehaviour
@@ -12,7 +13,7 @@ public class FPS_Enemy : MonoBehaviour
 
     private void Start()
     {
-        // EVENTO DE TELEMETRÌA
+        Tracker.getInstance().enemyAppearEvent(0, "0");
     }
 
     void Update()

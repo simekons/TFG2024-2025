@@ -68,6 +68,7 @@ namespace Telemetry
         }
         public static Tracker getInstance()
         {
+            print("HOLA");
             return _instance;
         }
 
