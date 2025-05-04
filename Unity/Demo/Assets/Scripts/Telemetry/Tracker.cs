@@ -13,14 +13,12 @@ namespace Telemetry
 {
     public class Tracker : MonoBehaviour
     {
-
         private static Tracker _instance; // The instance of the tracker system (singleton)
         private IPersistance _persistance; //persistance where the data will be sended
         private ISerialization _serialization; // how the data will be sended
 
         string mGameID_; //id of the game will be tracked
         Guid mSessionID_; //session id 
-
 
         float timeToFlush;
         float timer;
@@ -75,40 +73,126 @@ namespace Telemetry
 
 
         // EVENTOS ------------------------------------------------------------------------
+
+        /*
+         * GENERAL: 
+         * StartTrackingEvent
+         * StopTrackingEvent
+         * InitSessionEvent
+         * EndSessionEvent
+         * 
+         * AUDIOMETRY:
+         * LeftEqEvent
+         * RightEqEvent
+         * 
+         * FPS: 
+         * EnemyAppearedEvent
+         * EnemyShotEvent
+         * StartGameFPSEvent
+         * EndGameFPSEvent
+         * 
+         * MEMORY:
+         * ButtonAppearedEvent
+         * ButtonPressedEvent
+         * MaximumSequenceEvent
+         * StartGameMEMORYEvent
+         * EndGameMEMORYEvent
+         */
+
+        // GENERAL ----------------------------------------------------
         public void init()
         {
-            //AddGameEvent(new StartTrackingEvent(mSessionID_, mGameID_));
-        } 
-
-        public void startGame()
-        {
-            //AddGameEvent(new StartGameEvent());
+            AddGameEvent(new StartTrackingEvent(mSessionID_, mGameID_));
         }
-
+        public void end()
+        {
+            AddGameEvent(new StopTrackingEvent());
+            _persistance.Flush();
+            _persistance.End();
+        }
         public void initSession()
         {
-            //AddGameEvent(new InitSessionEvent());
+            AddGameEvent(new InitSessionEvent());
         }
         public void endSession()
         {
-            //AddGameEvent(new EndSessionEvent());
+            AddGameEvent(new EndSessionEvent());
 
         }
-        public void endGame()
+
+        // GENERAL ----------------------------------------------------
+        // AUDIOMETRY -------------------------------------------------
+
+        public void leftEq(int[] eq)
         {
-            //AddGameEvent(new EndGameEvent());
+            AddGameEvent(new Telemetry.Events.Audiometry.LeftEqEvent(eq));
         }
-        //public void AddGameEvent(Event e)
-        //{
-            //e.setSessionID(mSessionID_);
-            //_persistance.PersistEvent(e);
-        //}
-        //public void end()
-        //{
-            //AddGameEvent(new StopTrackingEvent());
-            //_persistance.Flush();
-            //_persistance.End();
-        //}
+
+        public void rightE(int[] eq)
+        {
+            AddGameEvent(new Telemetry.Events.Audiometry.RightEqEvent(eq));
+        }
+
+        // FPS --------------------------------------------------------
+
+        public void enemyAppearEvent(int id, string time)
+        {
+            AddGameEvent(new Telemetry.Events.FPS.EnemyAppearedEvent(id, time));
+        }
+
+        public void enemyShotEvent(int id, string time)
+        {
+            AddGameEvent(new Telemetry.Events.FPS.EnemyShotEvent(id, time));
+        }
+
+        public void startGameFPS()
+        {
+            AddGameEvent(new Telemetry.Events.FPS.StartGameFPSEvent());
+        }
+
+        public void endGameFPS()
+        {
+            AddGameEvent(new Telemetry.Events.FPS.EndGameFPSEvent());
+        }
+
+        // FPS --------------------------------------------------------
+        // MEMORY -----------------------------------------------------
+
+        public void buttonAppearEvent(int id, string time)
+        {
+            AddGameEvent(new Telemetry.Events.MEMORY.ButtonAppearedEvent(id, time));
+        }
+
+        public void buttonPressedeEvent(int id ,string time)
+        {
+            AddGameEvent(new Telemetry.Events.MEMORY.ButtonPressedEvent(id, time));
+        }
+
+        public void maxSequenceEvent(int id)
+        {
+            AddGameEvent(new Telemetry.Events.MEMORY.MaximumSequenceEvent(id));
+        }
+
+        public void startGameMemory()
+        {
+            AddGameEvent(new Telemetry.Events.MEMORY.StartGameMEMORYEvent());
+        }
+
+        public void endGameMemory()
+        {
+            AddGameEvent(new Telemetry.Events.MEMORY.EndGameMEMORYEvent());
+        }
+
+        // MEMORY -----------------------------------------------------
+
+        // EVENTOS ------------------------------------------------------------------------  
+        
+        public void AddGameEvent(Telemetry.Events.Event e)
+        {
+            e.setSessionID(mSessionID_);
+            _persistance.PersistEvent(e);
+        }
+
 
         public void update(float deltaTime)
         {
@@ -121,7 +205,6 @@ namespace Telemetry
             }
         }
 
-        // EVENTOS ------------------------------------------------------------------------  
     }
 }
 

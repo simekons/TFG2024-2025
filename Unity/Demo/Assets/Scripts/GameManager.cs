@@ -1,4 +1,5 @@
 using FMODUnity;
+using Telemetry;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -52,6 +53,8 @@ public class GameManager : MonoBehaviour
         {
             left = leftHZ;
             right = rightHZ;
+            Tracker.getInstance().leftEq(leftHZ);
+            Tracker.getInstance().rightE(rightHZ);
             Debug.Log("Aplicando Audiometria");
         }
         else
