@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AUDIOMETRIA.unity
     guid: 74f55bf811a74d94ca38e3e106d11b11
+  - enabled: 1
+    path: Assets/Scenes/fps.unity
+    guid: 5d76e15a8bd23144d8ab551ececf2efd
+  - enabled: 1
+    path: Assets/Scenes/mem2.unity
+    guid: 314b125a16864384a8cb21611e45c6ce
   m_configObjects: {}
