@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 4293795549462730522}
   - component: {fileID: -613986741595368796}
   - component: {fileID: -7886794608343803986}
-  - component: {fileID: 8797657725040658889}
   - component: {fileID: 7418409273462846321}
   m_Layer: 0
   m_Name: Enemy
@@ -103,7 +102,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -147,19 +146,9 @@ MonoBehaviour:
   wanderRadius: 3
   wanderInterval: 2
   detectionRange: 6
---- !u!114 &8797657725040658889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1914016986012299944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9eee41acd54746344a445391c810bd2b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  emitter: {fileID: 7418409273462846321}
+  wanderSpeed: 1.5
+  chaseSpeed: 2
+  attackCooldown: 1.5
 --- !u!114 &7418409273462846321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,8 +170,8 @@ MonoBehaviour:
       Data4: 539664962
     Path: event:/Enemy1
   Event: 
-  PlayEvent: 0
-  StopEvent: 0
+  PlayEvent: 1
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0

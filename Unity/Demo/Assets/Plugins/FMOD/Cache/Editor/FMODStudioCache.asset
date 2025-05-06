@@ -68,10 +68,10 @@ MonoBehaviour:
   Path: ../../FMOD/tfgdv/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638797297406996093
+  lastModified: 638821580166369702
   FileSizes:
   - Name: Desktop
-    Value: 13084960
+    Value: 13456192
   Exists: 1
 --- !u!114 &-7413690747174525451
 MonoBehaviour:
@@ -194,7 +194,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8347492499960178630}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -239,10 +239,10 @@ MonoBehaviour:
   Path: ../../FMOD/tfgdv/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638797297407011201
+  lastModified: 638821580166389648
   FileSizes:
   - Name: Desktop
-    Value: 1888
+    Value: 1882
   Exists: 1
 --- !u!114 &-3844996902625843149
 MonoBehaviour:
@@ -289,7 +289,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8347492499960178630}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -415,10 +415,10 @@ MonoBehaviour:
   - {fileID: 3658783701283264398}
   - {fileID: -3455716540709271673}
   - {fileID: -4712489687469082786}
-  - {fileID: 7053877928662466548}
   - {fileID: 5957440832247090437}
   - {fileID: -6945772210549923113}
   - {fileID: 9204133317788185184}
+  - {fileID: 6728082397712357399}
   EditorParameters:
   - {fileID: -6174598535045414921}
   - {fileID: 3208472654131657237}
@@ -436,7 +436,7 @@ MonoBehaviour:
   - {fileID: -8347492499960178630}
   StringsBanks:
   - {fileID: -4439657933259534792}
-  cacheTime: 638797297407011201
+  cacheTime: 638821580166389648
   cacheVersion: 131593
 --- !u!114 &521914441103672475
 MonoBehaviour:
@@ -579,7 +579,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8347492499960178630}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -609,6 +609,33 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
+--- !u!114 &5169888268774002278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy1
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy1
+  Guid:
+    Data1: 1709721898
+    Data2: 1139834543
+    Data3: -955911276
+    Data4: 539664962
+  Banks:
+  - {fileID: -8347492499960178630}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6500
 --- !u!114 &5393793072707749007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -654,7 +681,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8347492499960178630}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
@@ -684,6 +711,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &6728082397712357399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Enemy1
+  m_EditorClassIdentifier: 
+  Path: event:/Enemy1
+  Guid:
+    Data1: 1709721898
+    Data2: 1139834543
+    Data3: -955911276
+    Data4: 539664962
+  Banks:
+  - {fileID: -8347492499960178630}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6500
 --- !u!114 &6890073983360376327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -708,33 +762,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &7053877928662466548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/New Event 3
-  m_EditorClassIdentifier: 
-  Path: event:/New Event 3
-  Guid:
-    Data1: 2072580838
-    Data2: 1302552569
-    Data3: -1915188850
-    Data4: 258101391
-  Banks:
-  - {fileID: -8347492499960178630}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5000
 --- !u!114 &7391649714686107120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -833,7 +860,7 @@ MonoBehaviour:
   Banks:
   - {fileID: -8347492499960178630}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1

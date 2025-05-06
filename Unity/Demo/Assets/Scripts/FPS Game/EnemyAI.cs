@@ -9,9 +9,13 @@ public class EnemyAI : MonoBehaviour
     public float wanderRadius = 10f; // Radio de movimiento aleatorio
     public float wanderInterval = 3f; // Tiempo entre cambios de dirección
     public float detectionRange = 3f;
+    public float wanderSpeed = 2f;
+    public float chaseSpeed = 1f;
+    public float attackCooldown = 1.5f; // Tiempo entre ataques
 
     private NavMeshAgent agent;
     private float wanderTimer = 0f;
+    private float lastAttackTime = -Mathf.Infinity; // Última vez que atacó
     private bool isChasing = false;
 
     // Start is called before the first frame update
@@ -32,12 +36,22 @@ public class EnemyAI : MonoBehaviour
 
         if (distanceToPlayer <= detectionRange)
         {
-            isChasing = true;
+            if(!isChasing)
+            {
+                isChasing = true;
+                agent.speed = chaseSpeed;
+            }
             agent.SetDestination(player.transform.position);
         }
         else
         {
-            isChasing = false;
+            if(isChasing)
+            {
+                isChasing = false;
+                agent.speed = wanderSpeed;
+                wanderTimer = 0f;
+            }
+
             wanderTimer += Time.deltaTime;
 
             if (wanderTimer >= wanderInterval)
@@ -59,6 +73,22 @@ public class EnemyAI : MonoBehaviour
         if (NavMesh.SamplePosition(randomDirection, out hit, wanderRadius, NavMesh.AllAreas))
         {
             agent.SetDestination(hit.position);
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            if(Time.time >= lastAttackTime + attackCooldown)
+            {
+                PlayerHealth health = other.GetComponent<PlayerHealth>();
+                if (health != null)
+                {
+                    health.TakeDamage(25); // Le baja 10 puntos
+                    lastAttackTime = Time.time;
+                }
+            }
         }
     }
 }
