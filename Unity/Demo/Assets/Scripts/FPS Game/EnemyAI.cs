@@ -91,4 +91,13 @@ public class EnemyAI : MonoBehaviour
             }
         }
     }
+
+    private void OnDestroy()
+    {
+        EnemySpawner spawner = FindObjectOfType<EnemySpawner>();
+        if (spawner != null)
+        {
+            spawner.EnemyDied();
+        }
+    }
 }

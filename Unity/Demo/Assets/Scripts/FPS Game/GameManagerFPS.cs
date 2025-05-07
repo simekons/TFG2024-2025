@@ -9,19 +9,41 @@ public class GameManagerFPS : MonoBehaviour
     private float timer;
 
     public GameObject winPanel;
+    public GameObject menuPanel;
+    public float timeBeforeMenu = 3f;
+
     private bool gameEnded = false;
+    private float winTimer = 0f;
+    private bool showingWinPanel = false;
 
     // Start is called before the first frame update
     void Start()
     {
         timer = gameDuration;
         if (winPanel != null) winPanel.SetActive(false);
+        if (menuPanel != null) menuPanel.SetActive(false);
+        Time.timeScale = 1f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (gameEnded) return;
+        if (gameEnded)
+        {
+            if (showingWinPanel)
+            {
+                winTimer += Time.deltaTime;
+                if (winTimer >= timeBeforeMenu)
+                {
+                    if (winPanel != null) winPanel.SetActive(false);
+                    if (menuPanel != null) menuPanel.SetActive(true);
+
+                    Time.timeScale = 0f;
+                    showingWinPanel = false;
+                }
+            }
+            return;
+        }
 
         timer -= Time.deltaTime;
 
@@ -35,11 +57,6 @@ public class GameManagerFPS : MonoBehaviour
     {
         gameEnded = true;
         if (winPanel != null) winPanel.SetActive(true);
-
-        // Puedes pausar el juego si quieres:
-        Time.timeScale = 0f;
-
-        // O cargar una escena de victoria:
-        // SceneManager.LoadScene("WinScene");
+        showingWinPanel = true;
     }
 }
