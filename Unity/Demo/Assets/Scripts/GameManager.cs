@@ -31,6 +31,17 @@ public class GameManager : MonoBehaviour
 
     public void ChangeScene(string nameScene)
     {
+        if (nameScene == "MENU")
+        {
+            if (SceneManager.GetActiveScene().name == "MEM_1" || SceneManager.GetActiveScene().name == "MEM_2")
+            {
+                Tracker.getInstance().endGameMemory();
+            }
+            if (SceneManager.GetActiveScene().name == "FPS_1" || SceneManager.GetActiveScene().name == "FPS_2")
+            {
+                Tracker.getInstance().endGameFPS();
+            }
+        }
         SceneManager.LoadScene(nameScene, LoadSceneMode.Single);
     }
 
@@ -69,5 +80,11 @@ public class GameManager : MonoBehaviour
             system.setParameterByName($"Left/L{frecuencias[i]}", left[i]);
             system.setParameterByName($"Right/R{frecuencias[i]}", right[i]);
         }
+    }
+
+    void OnApplicationQuit()
+    {
+        Tracker.getInstance().endSession();
+        Tracker.getInstance().end();
     }
 }

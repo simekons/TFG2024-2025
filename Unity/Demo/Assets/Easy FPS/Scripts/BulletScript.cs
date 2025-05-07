@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Telemetry;
 
 public class BulletScript : MonoBehaviour {
 
@@ -30,11 +31,14 @@ public class BulletScript : MonoBehaviour {
 				}
 				if(hit.transform.tag == "Enemy"){
 					Instantiate(bloodEffect, hit.point, Quaternion.LookRotation(hit.normal));
-					Destroy(gameObject);
+                    print("..." + hit.transform.gameObject.name);
+                    Destroy(gameObject);
 
 					// EVENTO DE TELEMETRÍA
 					Destroy(hit.transform.gameObject);
-				}
+                    EnemySpawner.Instance().EnemyDied();
+                    Tracker.getInstance().enemyShotEvent(int.Parse(hit.transform.gameObject.name), "0");
+                }
 			}		
 			Destroy(gameObject);
 		}

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Telemetry;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
@@ -12,7 +13,20 @@ public class EnemySpawner : MonoBehaviour
 
     private float spawnTimer = 0f;
     private int enemyCount = 0;
+    private static EnemySpawner instance;
 
+    public static EnemySpawner Instance()
+    {
+        if (instance != null)
+            return instance;
+        else
+            return instance = new EnemySpawner();
+    }
+
+    private void Start()
+    {
+        Tracker.getInstance().startGameFPS();
+    }
     void Update()
     {
         spawnTimer += Time.deltaTime;
@@ -22,6 +36,7 @@ public class EnemySpawner : MonoBehaviour
             SpawnEnemy();
             spawnTimer = 0f;
         }
+
     }
 
     void SpawnEnemy()
@@ -30,7 +45,15 @@ public class EnemySpawner : MonoBehaviour
         Transform spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
 
         // Instancia el enemigo en el punto seleccionado
-        Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+        GameObject enemy =Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+
+        enemy.name = enemyCount.ToString();
+
+        print("New enemy is called . . ." + enemy.name);
+
+        print("Enemy " + (5 - enemyCount) + " just spawned.");
+
+        Tracker.getInstance().enemyAppearEvent(5 - enemyCount, "0");
 
         enemyCount++;
     }

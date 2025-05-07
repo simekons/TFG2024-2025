@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Telemetry;
 using UnityEngine;
 
 public class SoundDirectionGame : MonoBehaviour
@@ -29,6 +30,7 @@ public class SoundDirectionGame : MonoBehaviour
 
     private void Start()
     {
+        Tracker.getInstance().startGameMemory();
         currentDelay = initialDelay;
         startNewSequence();
     }
@@ -190,6 +192,7 @@ public class SoundDirectionGame : MonoBehaviour
         if (exitPanel != null)
             exitPanel.SetActive(true);
 
+        Tracker.getInstance().endGameMemory();
         state = GameState.ShowingMessage;
     }
 }

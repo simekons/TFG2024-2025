@@ -103,22 +103,25 @@ namespace Telemetry
         // GENERAL ----------------------------------------------------
         public void init()
         {
+            print("Tracking started . . .");
             AddGameEvent(new StartTrackingEvent(mSessionID_, mGameID_));
         }
         public void end()
         {
+            print("Tracking ended . . .");
             AddGameEvent(new StopTrackingEvent());
             _persistance.Flush();
             _persistance.End();
         }
         public void initSession()
         {
+            print("Session started . . .");
             AddGameEvent(new InitSessionEvent());
         }
         public void endSession()
         {
+            print("Session ended . . .");
             AddGameEvent(new EndSessionEvent());
-
         }
 
         // GENERAL ----------------------------------------------------
@@ -126,11 +129,19 @@ namespace Telemetry
 
         public void leftEq(int[] eq)
         {
-            AddGameEvent(new Telemetry.Events.Audiometry.LeftEqEvent(eq));
+            for (int i = 0; i < eq.Length; i++)
+            {
+                print("The volume needed for frequency " + i + " was " + eq[i] + " . . .");
+            }
+            AddGameEvent(new Telemetry.Events.Audiometry.LeftEqEvent(eq)); 
         }
 
         public void rightE(int[] eq)
         {
+            for (int i = 0; i < eq.Length; i++)
+            {
+                print("The volume needed for frequency " + i + " was " + eq[i] + " . . .");
+            }
             AddGameEvent(new Telemetry.Events.Audiometry.RightEqEvent(eq));
         }
 
@@ -138,49 +149,52 @@ namespace Telemetry
 
         public void enemyAppearEvent(int id, string time)
         {
+            print("Enemy " + id + " just appeared . . .");
             AddGameEvent(new Telemetry.Events.FPS.EnemyAppearedEvent(id, time));
         }
 
         public void enemyShotEvent(int id, string time)
         {
+            print("Enemy " + id + " just got shot . . .");
             AddGameEvent(new Telemetry.Events.FPS.EnemyShotEvent(id, time));
         }
 
         public void startGameFPS()
         {
+            print("Starting FPS game . . .");
             AddGameEvent(new Telemetry.Events.FPS.StartGameFPSEvent());
         }
 
         public void endGameFPS()
         {
+            print("Ending FPS game . . .");
             AddGameEvent(new Telemetry.Events.FPS.EndGameFPSEvent());
         }
 
         // FPS --------------------------------------------------------
         // MEMORY -----------------------------------------------------
 
-        public void buttonAppearEvent(int id, string time)
+        public void buttonPressedEvent(int id, string time)
         {
+            print("Button " + id + " just got pressed . . .");
             AddGameEvent(new Telemetry.Events.MEMORY.ButtonAppearedEvent(id, time));
         }
-
-        public void buttonPressedeEvent(int id ,string time)
-        {
-            AddGameEvent(new Telemetry.Events.MEMORY.ButtonPressedEvent(id, time));
-        }
-
+         
         public void maxSequenceEvent(int id)
         {
+            print("The maximum sequence this time was " + id + " . . .");
             AddGameEvent(new Telemetry.Events.MEMORY.MaximumSequenceEvent(id));
         }
 
         public void startGameMemory()
         {
+            print("Starting MEMORY game . . .");
             AddGameEvent(new Telemetry.Events.MEMORY.StartGameMEMORYEvent());
         }
 
         public void endGameMemory()
         {
+            print("Ending MEMORY game . . .");
             AddGameEvent(new Telemetry.Events.MEMORY.EndGameMEMORYEvent());
         }
 
@@ -193,7 +207,6 @@ namespace Telemetry
             e.setSessionID(mSessionID_);
             _persistance.PersistEvent(e);
         }
-
 
         public void update(float deltaTime)
         {

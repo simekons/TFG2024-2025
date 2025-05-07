@@ -6,6 +6,7 @@ using FMOD.Studio;
 using System;
 using Unity.VisualScripting.FullSerializer;
 using System.IO;
+using Telemetry;
 
 public class AudiometryManager : MonoBehaviour
 {
@@ -44,6 +45,9 @@ public class AudiometryManager : MonoBehaviour
 
         guardarLeftHZ = new int[6];
         guardarRightHZ = new int[6];
+
+        Tracker.getInstance().init();
+        Tracker.getInstance().initSession();
     }
 
     public int GetSonidoActual()
