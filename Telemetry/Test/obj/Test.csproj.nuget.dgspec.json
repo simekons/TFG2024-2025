@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\faceb\\Desktop\\Gits\\Telemetry\\Telemetry\\Test\\Test.csproj": {}
+    "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Test\\Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\faceb\\Desktop\\Gits\\Telemetry\\Telemetry\\Telemetry\\Telemetry.csproj": {
+    "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Telemetry.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\faceb\\Desktop\\Gits\\Telemetry\\Telemetry\\Telemetry\\Telemetry.csproj",
+        "projectUniqueName": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Telemetry.csproj",
         "projectName": "Telemetry",
-        "projectPath": "C:\\Users\\faceb\\Desktop\\Gits\\Telemetry\\Telemetry\\Telemetry\\Telemetry.csproj",
+        "projectPath": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Telemetry.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
@@ -20,14 +20,14 @@
         "net472": {}
       }
     },
-    "C:\\Users\\faceb\\Desktop\\Gits\\Telemetry\\Telemetry\\Test\\Test.csproj": {
+    "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\faceb\\Desktop\\Gits\\Telemetry\\Telemetry\\Test\\Test.csproj",
+        "projectUniqueName": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "C:\\Users\\faceb\\Desktop\\Gits\\Telemetry\\Telemetry\\Test\\Test.csproj",
+        "projectPath": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\faceb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\faceb\\Desktop\\Gits\\Telemetry\\Telemetry\\Test\\obj\\",
+        "outputPath": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Visual Studio 2022\\Shared\\NuGetPackages"
@@ -48,8 +48,8 @@
           "net472": {
             "targetAlias": "net472",
             "projectReferences": {
-              "C:\\Users\\faceb\\Desktop\\Gits\\Telemetry\\Telemetry\\Telemetry\\Telemetry.csproj": {
-                "projectPath": "C:\\Users\\faceb\\Desktop\\Gits\\Telemetry\\Telemetry\\Telemetry\\Telemetry.csproj"
+              "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Telemetry.csproj": {
+                "projectPath": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Telemetry.csproj"
               }
             }
           }

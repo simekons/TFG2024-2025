@@ -10,7 +10,7 @@ namespace Telemetry.Events.Audiometry
     {
         public LeftEqEvent(int[] frecuency) : base((int)EventType.LeftEq)
         {
-            _data.Add("Left equalization", frecuency);
+            _data.Add("lefteq", frecuency);
         }
     }
 }

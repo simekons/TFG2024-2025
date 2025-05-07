@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = Test
-build_property.ProjectDir = C:\Users\faceb\Desktop\Gits\Telemetry\Telemetry\Test\
+build_property.ProjectDir = C:\Users\faceb\Desktop\Gits\TFG2023-2024\Telemetry\Test\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

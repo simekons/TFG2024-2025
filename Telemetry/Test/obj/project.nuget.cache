@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "14p1VZf1qRc=",
+  "dgSpecHash": "8+0A3JeyCJg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\faceb\\Desktop\\Gits\\Telemetry\\Telemetry\\Test\\Test.csproj",
+  "projectFilePath": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Test\\Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\faceb\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
