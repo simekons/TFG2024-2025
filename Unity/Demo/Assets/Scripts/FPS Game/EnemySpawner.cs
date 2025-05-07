@@ -8,8 +8,8 @@ public class EnemySpawner : MonoBehaviour
 
     public GameObject enemyPrefab; // Prefab del enemigo
     public Transform[] spawnPoints; // Puntos de spawn
-    public float spawnInterval = 5f; // Tiempo entre spawns
-    public int maxEnemies = 5; // Máximo de enemigos en escena
+    public float spawnInterval = 3f; // Tiempo entre spawns
+    public int maxEnemies = 8; // Máximo de enemigos en escena
 
     private float spawnTimer = 0f;
     private int enemyCount = 0;
@@ -62,4 +62,6 @@ public class EnemySpawner : MonoBehaviour
     {
         enemyCount--; // Llamar a esto cuando un enemigo muera
     }
+
+    
 }
