@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
     private int[] leftHZ;
     private int[] rightHZ;
 
+    private int _enemies = 0;
+
     private void Awake()
     {
         if (_instance == null)
@@ -31,17 +33,16 @@ public class GameManager : MonoBehaviour
 
     public void ChangeScene(string nameScene)
     {
-        if (nameScene == "MENU")
+        print(SceneManager.GetActiveScene().name + " nombre . . .");
+        if (SceneManager.GetActiveScene().name == "MEM_1" || SceneManager.GetActiveScene().name == "MEM_2" || SceneManager.GetActiveScene().name == "mem2")
         {
-            if (SceneManager.GetActiveScene().name == "MEM_1" || SceneManager.GetActiveScene().name == "MEM_2")
-            {
-                Tracker.getInstance().endGameMemory();
-            }
-            if (SceneManager.GetActiveScene().name == "FPS_1" || SceneManager.GetActiveScene().name == "FPS_2")
-            {
-                Tracker.getInstance().endGameFPS();
-            }
+            Tracker.getInstance().endGameMemory();
         }
+        if (SceneManager.GetActiveScene().name == "FPS_1" || SceneManager.GetActiveScene().name == "FPS_2" || SceneManager.GetActiveScene().name == "fps")
+        {
+            Tracker.getInstance().endGameFPS();
+        }
+
         SceneManager.LoadScene(nameScene, LoadSceneMode.Single);
     }
 
@@ -86,5 +87,15 @@ public class GameManager : MonoBehaviour
     {
         Tracker.getInstance().endSession();
         Tracker.getInstance().end();
+    }
+
+    public void addEnemy()
+    {
+        _enemies++;
+    }
+
+    public int getEnemies()
+    {
+        return _enemies;
     }
 }

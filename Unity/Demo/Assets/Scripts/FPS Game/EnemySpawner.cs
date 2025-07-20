@@ -41,6 +41,8 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
+        GameManager.Instance.addEnemy();
+
         // Selecciona un punto aleatorio de spawn
         Transform spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
 
@@ -49,17 +51,19 @@ public class EnemySpawner : MonoBehaviour
 
         enemy.name = enemyCount.ToString();
 
-        print("New enemy is called . . ." + enemy.name);
+        int id = GameManager.Instance.getEnemies();
 
-        print("Enemy " + (5 - enemyCount) + " just spawned.");
+        print("Enemy " + id + " just spawned.");
 
-        Tracker.getInstance().enemyAppearEvent(5 - enemyCount, "0");
+        float gameTime = UnityEngine.Time.time;
+
+        Tracker.getInstance().enemyAppearEvent(id, gameTime.ToString());
 
         enemyCount++;
     }
 
     public void EnemyDied()
-    {
+    { 
         enemyCount--; // Llamar a esto cuando un enemigo muera
     }
 

@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManagerFPS : MonoBehaviour
 {
 
-    public float gameDuration = 90f;
+    public float gameDuration = 5f;
     private float timer;
 
     public GameObject winPanel;
@@ -57,6 +57,8 @@ public class GameManagerFPS : MonoBehaviour
     {
         gameEnded = true;
         if (winPanel != null) winPanel.SetActive(true);
+
+        Cursor.lockState = CursorLockMode.None;
         showingWinPanel = true;
     }
 }

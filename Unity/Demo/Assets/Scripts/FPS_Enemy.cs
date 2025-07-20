@@ -13,7 +13,7 @@ public class FPS_Enemy : MonoBehaviour
 
     private void Start()
     {
-        Tracker.getInstance().enemyAppearEvent(0, "0");
+        //Tracker.getInstance().enemyAppearEvent(0, "0");
     }
 
     void Update()

@@ -37,7 +37,11 @@ public class BulletScript : MonoBehaviour {
 					// EVENTO DE TELEMETRÍA
 					Destroy(hit.transform.gameObject);
                     EnemySpawner.Instance().EnemyDied();
-                    Tracker.getInstance().enemyShotEvent(int.Parse(hit.transform.gameObject.name), "0");
+
+                    float gameTime = UnityEngine.Time.time;
+
+					int id = GameManager.Instance.getEnemies();
+                    Tracker.getInstance().enemyShotEvent(id, gameTime.ToString());
                 }
 			}		
 			Destroy(gameObject);
