@@ -4,3 +4,9 @@ C:\Users\faceb\Desktop\Gits\Telemetry\Telemetry\Test\obj\Release\net472\Test.Ass
 C:\Users\faceb\Desktop\Gits\Telemetry\Telemetry\Test\obj\Release\net472\Test.AssemblyInfo.cs
 C:\Users\faceb\Desktop\Gits\Telemetry\Telemetry\Test\obj\Release\net472\Test.csproj.CoreCompileInputs.cache
 C:\Users\faceb\Desktop\Gits\Telemetry\Telemetry\Test\obj\Release\net472\Test.sourcelink.json
+C:\Users\faceb\Desktop\Gits\TFG2023-2024\Telemetry\Test\obj\Release\net472\Test.csproj.AssemblyReference.cache
+C:\Users\faceb\Desktop\Gits\TFG2023-2024\Telemetry\Test\obj\Release\net472\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faceb\Desktop\Gits\TFG2023-2024\Telemetry\Test\obj\Release\net472\Test.AssemblyInfoInputs.cache
+C:\Users\faceb\Desktop\Gits\TFG2023-2024\Telemetry\Test\obj\Release\net472\Test.AssemblyInfo.cs
+C:\Users\faceb\Desktop\Gits\TFG2023-2024\Telemetry\Test\obj\Release\net472\Test.csproj.CoreCompileInputs.cache
+C:\Users\faceb\Desktop\Gits\TFG2023-2024\Telemetry\Test\obj\Release\net472\Test.sourcelink.json

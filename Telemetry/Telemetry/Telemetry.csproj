@@ -2,6 +2,8 @@
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
+    <LangVersion>10.0</LangVersion>
+    <Nullable>enable</Nullable>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{FC4C030D-1B26-4183-9269-19FFE590E16A}</ProjectGuid>
@@ -12,6 +14,7 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <ImplicitUsings>disable</ImplicitUsings>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -74,6 +77,7 @@
   <ItemGroup>
     <Compile Include="Events\Audiometry\LeftEqEvent.cs" />
     <Compile Include="Events\Audiometry\RightEqEvent.cs" />
+    <Compile Include="Events\FPS\BulletShotFPSEvent.cs" />
     <Compile Include="Events\FPS\EnemyAppearedEvent.cs" />
     <Compile Include="Events\FPS\EnemyShotEvent.cs" />
     <Compile Include="Events\InitSessionEvent.cs" />

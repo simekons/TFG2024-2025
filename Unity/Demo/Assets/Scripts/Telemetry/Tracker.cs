@@ -159,6 +159,12 @@ namespace Telemetry
             AddGameEvent(new Telemetry.Events.FPS.EnemyShotEvent(id, time));
         }
 
+        public void bulletShotEvent()
+        {
+            print("Bullet shot . . .");
+            AddGameEvent(new Telemetry.Events.FPS.BulletShotFPSEvent());
+        }
+
         public void startGameFPS()
         {
             print("Starting FPS game . . .");

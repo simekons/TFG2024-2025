@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Telemetry;
 //using UnityStandardAssets.ImageEffects;
 
 public enum GunStyles{
@@ -422,7 +423,10 @@ public class GunScript : MonoBehaviour {
 
 			if(bulletsInTheGun > 0){
 
-				int randomNumberForMuzzelFlash = Random.Range(0,5);
+				Tracker.getInstance().bulletShotEvent();
+                // evento
+
+                int randomNumberForMuzzelFlash = Random.Range(0,5);
 				if (bullet)
 					Instantiate (bullet, bulletSpawnPlace.transform.position, bulletSpawnPlace.transform.rotation);
 				else

@@ -1,0 +1,600 @@
+{
+    "15ea9d6c-520f-4aad-b08c-4fa3fd77cbf1": {
+        "StartTracking": "2025-05-07 19:30:34",
+        "SessionStart": "2025-05-07 19:30:34",
+        "LeftEqEvent": [],
+        "RightEqEvent": [],
+        "StartGame": [],
+        "EnemyAppeared": [],
+        "EnemyShot": [],
+        "ButtonAppearedEvent": [],
+        "ButtonPressedEvent": [],
+        "MaximumSequenceEvent": [],
+        "EndGame": [],
+        "SessionEnd": "2025-05-07 19:32:28",
+        "StopTracking": "2025-05-07 19:32:28"
+    },
+    "c1058a98-f4c4-4713-b958-c2bed7c323c7": {
+        "StartTracking": "2025-05-07 19:32:33",
+        "SessionStart": "2025-05-07 19:32:33",
+        "LeftEqEvent": [],
+        "RightEqEvent": [],
+        "StartGame": [],
+        "EnemyAppeared": [],
+        "EnemyShot": [],
+        "ButtonAppearedEvent": [],
+        "ButtonPressedEvent": [],
+        "MaximumSequenceEvent": [],
+        "EndGame": [],
+        "SessionEnd": "2025-05-07 19:32:53",
+        "StopTracking": "2025-05-07 19:32:53"
+    },
+    "faa8a051-5ecd-449d-8474-7107c80ac5b6": {
+        "StartTracking": "2025-05-07 19:34:11",
+        "SessionStart": "2025-05-07 19:34:11",
+        "LeftEqEvent": [],
+        "RightEqEvent": [],
+        "StartGame": [
+            {
+                "type": "StartGameMEMORY",
+                "time": "2025-05-07 19:34:20"
+            }
+        ],
+        "EnemyAppeared": [],
+        "EnemyShot": [],
+        "ButtonAppearedEvent": [],
+        "ButtonPressedEvent": [],
+        "MaximumSequenceEvent": [],
+        "EndGame": [],
+        "SessionEnd": "2025-05-07 19:34:33",
+        "StopTracking": "2025-05-07 19:34:33"
+    },
+    "9c165ce8-7830-4e06-a75c-e5907b941931": {
+        "StartTracking": "2025-05-07 19:37:29",
+        "SessionStart": "2025-05-07 19:37:29",
+        "LeftEqEvent": [],
+        "RightEqEvent": [],
+        "StartGame": [
+            {
+                "type": "StartGameFPS",
+                "time": "2025-05-07 19:37:34"
+            }
+        ],
+        "EnemyAppeared": [
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 0,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 0,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 5,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 4,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 2,
+                "Enemy appeared at time: ": "0"
+            }
+        ],
+        "EnemyShot": [
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 0,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 3,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 1,
+                "Enemy killed at time: ": "0"
+            }
+        ],
+        "ButtonAppearedEvent": [],
+        "ButtonPressedEvent": [],
+        "MaximumSequenceEvent": [],
+        "EndGame": [],
+        "SessionEnd": "2025-05-07 19:38:25",
+        "StopTracking": "2025-05-07 19:38:25"
+    },
+    "de067c3f-da58-4040-bd29-23f16b457dfb": {
+        "StartTracking": "2025-05-07 20:08:55",
+        "SessionStart": "2025-05-07 20:08:55",
+        "LeftEqEvent": [
+            {
+                "Event": "LeftEq",
+                "Left equalization": [
+                    30,
+                    0,
+                    10,
+                    20,
+                    10,
+                    10
+                ]
+            }
+        ],
+        "RightEqEvent": [
+            {
+                "Event": "RightEq",
+                "Right equalization": [
+                    90,
+                    0,
+                    60,
+                    10,
+                    30,
+                    40
+                ]
+            }
+        ],
+        "StartGame": [
+            {
+                "type": "StartGameFPS",
+                "time": "2025-05-07 20:09:18"
+            }
+        ],
+        "EnemyAppeared": [
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 0,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 0,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 5,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 4,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 2,
+                "Enemy appeared at time: ": "0"
+            }
+        ],
+        "EnemyShot": [
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 0,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 1,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            }
+        ],
+        "ButtonAppearedEvent": [],
+        "ButtonPressedEvent": [],
+        "MaximumSequenceEvent": [],
+        "EndGame": [],
+        "SessionEnd": "2025-05-07 20:09:39",
+        "StopTracking": "2025-05-07 20:09:39"
+    },
+    "4c795a03-7633-4ecb-baf2-f51512f6929a": {
+        "StartTracking": "2025-05-07 20:18:40",
+        "SessionStart": "2025-05-07 20:18:40",
+        "LeftEqEvent": [],
+        "RightEqEvent": [],
+        "StartGame": [],
+        "EnemyAppeared": [],
+        "EnemyShot": [],
+        "ButtonAppearedEvent": [],
+        "ButtonPressedEvent": [],
+        "MaximumSequenceEvent": [],
+        "EndGame": [],
+        "SessionEnd": "2025-05-07 20:18:41",
+        "StopTracking": "2025-05-07 20:18:41"
+    },
+    "e5935ecb-aeb0-4759-901e-46ecf6a63603": {
+        "StartTracking": "2025-05-07 20:20:30",
+        "SessionStart": "2025-05-07 20:20:30",
+        "LeftEqEvent": [
+            {
+                "Event": "LeftEq",
+                "Left equalization": [
+                    20,
+                    10,
+                    20,
+                    0,
+                    30,
+                    0
+                ]
+            }
+        ],
+        "RightEqEvent": [
+            {
+                "Event": "RightEq",
+                "Right equalization": [
+                    10,
+                    10,
+                    30,
+                    0,
+                    0,
+                    20
+                ]
+            }
+        ],
+        "StartGame": [
+            {
+                "type": "StartGameFPS",
+                "time": "2025-05-07 20:20:42"
+            }
+        ],
+        "EnemyAppeared": [
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 5,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 4,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 2,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 1,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 1,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 1,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 4,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 2,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 4,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 2,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 3,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 2,
+                "Enemy appeared at time: ": "0"
+            },
+            {
+                "Event": "EnemyAppeared",
+                "Enemy id: ": 1,
+                "Enemy appeared at time: ": "0"
+            }
+        ],
+        "EnemyShot": [
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 4,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 3,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 4,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 1,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 0,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 4,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 1,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 3,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 1,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 3,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            },
+            {
+                "Event": "EnemyShot",
+                "Enemy id: ": 2,
+                "Enemy killed at time: ": "0"
+            }
+        ],
+        "ButtonAppearedEvent": [],
+        "ButtonPressedEvent": [],
+        "MaximumSequenceEvent": [],
+        "EndGame": [],
+        "SessionEnd": "2025-05-07 20:22:40",
+        "StopTracking": "2025-05-07 20:22:40"
+    },
+    "5eb16c5a-19ae-42b1-874f-d2f218ef3281": {
+        "StartTracking": "2025-05-07 20:25:52",
+        "SessionStart": "2025-05-07 20:25:52",
+        "LeftEqEvent": [
+            {
+                "Event": "LeftEq",
+                "lefteq": [
+                    30,
+                    0,
+                    10,
+                    20,
+                    20,
+                    0
+                ]
+            }
+        ],
+        "RightEqEvent": [
+            {
+                "Event": "RightEq",
+                "righteq": [
+                    0,
+                    0,
+                    10,
+                    10,
+                    0,
+                    0
+                ]
+            }
+        ],
+        "StartGame": [
+            {
+                "type": "StartGameFPS",
+                "time": "2025-05-07 20:26:03"
+            }
+        ],
+        "EnemyAppeared": [],
+        "EnemyShot": [],
+        "ButtonAppearedEvent": [],
+        "ButtonPressedEvent": [],
+        "MaximumSequenceEvent": [],
+        "EndGame": [],
+        "SessionEnd": "2025-05-07 20:26:05",
+        "StopTracking": "2025-05-07 20:26:05"
+    }
+}

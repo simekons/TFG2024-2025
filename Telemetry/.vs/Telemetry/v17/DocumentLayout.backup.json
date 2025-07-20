@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|c:\\users\\faceb\\desktop\\gits\\tfg2023-2024\\telemetry\\telemetry\\events\\fps\\bulletshotfpsevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|solutionrelative:telemetry\\events\\fps\\bulletshotfpsevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\telemetry\\events\\eventtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|solutionrelative:telemetry\\events\\eventtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\telemetry\\events\\fps\\endgamefpsevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|solutionrelative:telemetry\\events\\fps\\endgamefpsevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\telemetry\\events\\fps\\enemyappearedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|solutionrelative:telemetry\\events\\fps\\enemyappearedevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\telemetry\\events\\fps\\enemyshotevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|solutionrelative:telemetry\\events\\fps\\enemyshotevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Test\\obj\\Debug\\net472\\Test.GlobalUsings.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Test\\obj\\Debug\\net472\\Test.GlobalUsings.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\telemetry\\events\\fps\\startgamefpsevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|solutionrelative:telemetry\\events\\fps\\startgamefpsevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\telemetry\\events\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|solutionrelative:telemetry\\events\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\telemetry\\tracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC4C030D-1B26-4183-9269-19FFE590E16A}|Telemetry\\Telemetry.csproj|solutionrelative:telemetry\\tracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,6 +51,107 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BulletShotFPSEvent.cs",
+              "DocumentMoniker": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Events\\FPS\\BulletShotFPSEvent.cs",
+              "RelativeDocumentMoniker": "Telemetry\\Events\\FPS\\BulletShotFPSEvent.cs",
+              "ToolTip": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Events\\FPS\\BulletShotFPSEvent.cs",
+              "RelativeToolTip": "Telemetry\\Events\\FPS\\BulletShotFPSEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T15:25:55.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StartGameFPSEvent.cs",
+              "DocumentMoniker": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Events\\FPS\\StartGameFPSEvent.cs",
+              "RelativeDocumentMoniker": "Telemetry\\Events\\FPS\\StartGameFPSEvent.cs",
+              "ToolTip": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Events\\FPS\\StartGameFPSEvent.cs",
+              "RelativeToolTip": "Telemetry\\Events\\FPS\\StartGameFPSEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T15:00:48.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EndGameFPSEvent.cs",
+              "DocumentMoniker": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Events\\FPS\\EndGameFPSEvent.cs",
+              "RelativeDocumentMoniker": "Telemetry\\Events\\FPS\\EndGameFPSEvent.cs",
+              "ToolTip": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Events\\FPS\\EndGameFPSEvent.cs",
+              "RelativeToolTip": "Telemetry\\Events\\FPS\\EndGameFPSEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T15:00:47.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventType.cs",
+              "DocumentMoniker": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Events\\EventType.cs",
+              "RelativeDocumentMoniker": "Telemetry\\Events\\EventType.cs",
+              "ToolTip": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Events\\EventType.cs",
+              "RelativeToolTip": "Telemetry\\Events\\EventType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T14:57:27.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Events\\Event.cs",
+              "RelativeDocumentMoniker": "Telemetry\\Events\\Event.cs",
+              "ToolTip": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Events\\Event.cs",
+              "RelativeToolTip": "Telemetry\\Events\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T14:57:26.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tracker.cs",
+              "DocumentMoniker": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Tracker.cs",
+              "RelativeDocumentMoniker": "Telemetry\\Tracker.cs",
+              "ToolTip": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Tracker.cs",
+              "RelativeToolTip": "Telemetry\\Tracker.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T14:57:19.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyShotEvent.cs",
+              "DocumentMoniker": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Events\\FPS\\EnemyShotEvent.cs",
+              "RelativeDocumentMoniker": "Telemetry\\Events\\FPS\\EnemyShotEvent.cs",
+              "ToolTip": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Events\\FPS\\EnemyShotEvent.cs",
+              "RelativeToolTip": "Telemetry\\Events\\FPS\\EnemyShotEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T14:54:49.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyAppearedEvent.cs",
+              "DocumentMoniker": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Events\\FPS\\EnemyAppearedEvent.cs",
+              "RelativeDocumentMoniker": "Telemetry\\Events\\FPS\\EnemyAppearedEvent.cs",
+              "ToolTip": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Telemetry\\Events\\FPS\\EnemyAppearedEvent.cs",
+              "RelativeToolTip": "Telemetry\\Events\\FPS\\EnemyAppearedEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T14:54:38.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Test.GlobalUsings.g.cs",
               "DocumentMoniker": "C:\\Users\\faceb\\Desktop\\Gits\\TFG2023-2024\\Telemetry\\Test\\obj\\Debug\\net472\\Test.GlobalUsings.g.cs",
               "RelativeDocumentMoniker": "Test\\obj\\Debug\\net472\\Test.GlobalUsings.g.cs",

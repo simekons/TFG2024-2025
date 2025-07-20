@@ -17,6 +17,7 @@ namespace Telemetry.Events
         // FPS
         StartGameFPS,    // 
         EnemyAppeared,  //
+        ShootBullet,
         EnemyShot,     //
         EndGameFPS,     //
         
