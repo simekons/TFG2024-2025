@@ -544,3 +544,100 @@
 {"_eventId":2,"_timeStamp":1756573458777,"mSessionID_":"94f01010-d9a8-4665-885d-f4f57db9513e","_data":{"Event":"SessionStart","Session":"ed485863-5fec-44a3-98ef-23809b778775"}}
 {"_eventId":3,"_timeStamp":1756573477124,"mSessionID_":"94f01010-d9a8-4665-885d-f4f57db9513e","_data":{"Event":"SessionEnd"}}
 {"_eventId":1,"_timeStamp":1756573477124,"mSessionID_":"94f01010-d9a8-4665-885d-f4f57db9513e","_data":{"Event":"StopTracking"}}
+{"_eventId":0,"_timeStamp":1756581951882,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"StartTracking","Game":"TFG","User":"b4b1c424-ec02-47e4-9fe8-f09697842c5a"}}
+{"_eventId":2,"_timeStamp":1756581951883,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"SessionStart","Session":"6bdfa8d3-d49a-422b-9084-9bda3d0df42f"}}
+{"_eventId":4,"_timeStamp":1756581989791,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"LeftEq","lefteq":[0,10,10,20,30,10]}}
+{"_eventId":5,"_timeStamp":1756581989791,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"RightEq","righteq":[0,10,10,10,0,10]}}
+{"_eventId":12,"_timeStamp":1756582002200,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582010215,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582010406,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582018783,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582018970,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582027494,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582027728,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582027918,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582039271,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582039430,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582039580,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582051611,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582051937,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582052271,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582052470,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582061171,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582061373,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582061614,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582061781,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582072620,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582073630,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582074504,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582074960,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582075347,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582084758,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582084954,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582085268,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582085557,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582085772,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":14,"_timeStamp":1756582085773,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"MaxSequence","Sequence":6}}
+{"_eventId":12,"_timeStamp":1756582116872,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582118195,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582118964,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582128686,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582129129,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582130010,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582132417,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582132976,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582133440,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":14,"_timeStamp":1756582133441,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"MaxSequence","Sequence":6}}
+{"_eventId":3,"_timeStamp":1756582139940,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"SessionEnd"}}
+{"_eventId":1,"_timeStamp":1756582139940,"mSessionID_":"b4b1c424-ec02-47e4-9fe8-f09697842c5a","_data":{"Event":"StopTracking"}}
+{"_eventId":3,"_timeStamp":1756582192698,"mSessionID_":"4151a59e-3248-4c5d-8331-e0ca142ec7a6","_data":{"Event":"SessionEnd"}}
+{"_eventId":1,"_timeStamp":1756582192698,"mSessionID_":"4151a59e-3248-4c5d-8331-e0ca142ec7a6","_data":{"Event":"StopTracking"}}
+{"_eventId":12,"_timeStamp":1756582222313,"mSessionID_":"c8eaee43-0029-4b5a-9333-e01d0141992d","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582229773,"mSessionID_":"c8eaee43-0029-4b5a-9333-e01d0141992d","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582229933,"mSessionID_":"c8eaee43-0029-4b5a-9333-e01d0141992d","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582275943,"mSessionID_":"c8eaee43-0029-4b5a-9333-e01d0141992d","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582276091,"mSessionID_":"c8eaee43-0029-4b5a-9333-e01d0141992d","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":14,"_timeStamp":1756582276091,"mSessionID_":"c8eaee43-0029-4b5a-9333-e01d0141992d","_data":{"Event":"MaxSequence","Sequence":3}}
+{"_eventId":3,"_timeStamp":1756582311368,"mSessionID_":"c8eaee43-0029-4b5a-9333-e01d0141992d","_data":{"Event":"SessionEnd"}}
+{"_eventId":1,"_timeStamp":1756582311368,"mSessionID_":"c8eaee43-0029-4b5a-9333-e01d0141992d","_data":{"Event":"StopTracking"}}
+{"_eventId":12,"_timeStamp":1756582343950,"mSessionID_":"c9fdc86f-90b0-4a6a-be67-5378bcbdc038","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582353279,"mSessionID_":"c9fdc86f-90b0-4a6a-be67-5378bcbdc038","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582353396,"mSessionID_":"c9fdc86f-90b0-4a6a-be67-5378bcbdc038","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582361627,"mSessionID_":"c9fdc86f-90b0-4a6a-be67-5378bcbdc038","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582361798,"mSessionID_":"c9fdc86f-90b0-4a6a-be67-5378bcbdc038","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":14,"_timeStamp":1756582361799,"mSessionID_":"c9fdc86f-90b0-4a6a-be67-5378bcbdc038","_data":{"Event":"MaxSequence","Sequence":3}}
+{"_eventId":15,"_timeStamp":1756582367985,"mSessionID_":"c9fdc86f-90b0-4a6a-be67-5378bcbdc038","_data":{"Event":"EndGameMEMORY"}}
+{"_eventId":3,"_timeStamp":1756582375587,"mSessionID_":"c9fdc86f-90b0-4a6a-be67-5378bcbdc038","_data":{"Event":"SessionEnd"}}
+{"_eventId":1,"_timeStamp":1756582375587,"mSessionID_":"c9fdc86f-90b0-4a6a-be67-5378bcbdc038","_data":{"Event":"StopTracking"}}
+{"_eventId":12,"_timeStamp":1756582416167,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582423416,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582423538,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582431202,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582431326,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582440476,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582440674,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582440823,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582449332,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582449491,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582449614,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582458718,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582458984,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582459286,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582459440,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582468024,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582468202,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582468334,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582468446,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582477797,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582478951,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582479087,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582479254,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582479407,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582488083,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582488365,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582488577,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582488817,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":12,"_timeStamp":1756582488996,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
+{"_eventId":14,"_timeStamp":1756582488997,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"MaxSequence","Sequence":6}}
+{"_eventId":3,"_timeStamp":1756582542330,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"SessionEnd"}}
+{"_eventId":1,"_timeStamp":1756582542330,"mSessionID_":"9c00bdb5-9a06-4ade-bfa4-1fa37cee7cbc","_data":{"Event":"StopTracking"}}

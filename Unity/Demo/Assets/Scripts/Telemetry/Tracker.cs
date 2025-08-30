@@ -68,7 +68,6 @@ namespace Telemetry
         }
         public static Tracker getInstance()
         {
-            print("HOLA");
             return _instance;
         }
 
@@ -180,10 +179,10 @@ namespace Telemetry
         // FPS --------------------------------------------------------
         // MEMORY -----------------------------------------------------
 
-        public void buttonPressedEvent(int id, string time)
+        public void buttonPressedEvent(int id)
         {
             print("Button " + id + " just got pressed . . .");
-            AddGameEvent(new Telemetry.Events.MEMORY.ButtonAppearedEvent(id, time));
+            AddGameEvent(new Telemetry.Events.MEMORY.ButtonAppearedEvent(id, ""));
         }
          
         public void maxSequenceEvent(int id)

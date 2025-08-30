@@ -30,7 +30,6 @@ public class SoundDirectionGame : MonoBehaviour
 
     private void Start()
     {
-        Tracker.getInstance().startGameMemory();
         currentDelay = initialDelay;
         startNewSequence();
     }
@@ -93,6 +92,7 @@ public class SoundDirectionGame : MonoBehaviour
         if (Time.time >= nextPlayTime && playIndex < sequence.Count)
         {
             emitters[sequence[playIndex]].PlayRandomSound();
+            Debug.Log(sequence[playIndex]);
             playIndex++;
             nextPlayTime = Time.time + currentDelay;
         }
@@ -117,8 +117,10 @@ public class SoundDirectionGame : MonoBehaviour
 
     private void checkInput(int input)
     {
+        Tracker.getInstance().buttonPressedEvent(input);
         if (sequence[currentInputIndex] == input)
         {
+            Debug.Log("SEQUENCE: " + sequence.Count);
             currentInputIndex++;
             if (currentInputIndex == sequence.Count)
                 successfulSequence();
@@ -192,7 +194,7 @@ public class SoundDirectionGame : MonoBehaviour
         if (exitPanel != null)
             exitPanel.SetActive(true);
 
-        Tracker.getInstance().endGameMemory();
         state = GameState.ShowingMessage;
+        Tracker.getInstance().maxSequenceEvent(sequenceLength);
     }
 }

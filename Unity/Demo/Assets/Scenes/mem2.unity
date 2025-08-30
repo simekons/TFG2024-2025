@@ -832,7 +832,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1123120643}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 759c4ed00fd55524abcaae40e956a1cf, type: 3}
+  m_Script: {fileID: 11500000, guid: 334f1e0d59608de4692d1dfff237f503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1173431387
@@ -1004,7 +1004,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1246218157}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 759c4ed00fd55524abcaae40e956a1cf, type: 3}
+  m_Script: {fileID: 11500000, guid: 334f1e0d59608de4692d1dfff237f503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1255558553
@@ -1079,7 +1079,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1255558553}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 759c4ed00fd55524abcaae40e956a1cf, type: 3}
+  m_Script: {fileID: 11500000, guid: 334f1e0d59608de4692d1dfff237f503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1274635089
@@ -2029,6 +2029,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 592076179981431022, guid: ee2d31f946bcc8847b79c9687247b301, type: 3}
+      propertyPath: exitPanel
+      value: 
+      objectReference: {fileID: 885931501}
     - target: {fileID: 592076179981431022, guid: ee2d31f946bcc8847b79c9687247b301, type: 3}
       propertyPath: emitters.Array.data[0]
       value: 
