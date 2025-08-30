@@ -7,7 +7,7 @@ public class AudiometryUIManager : MonoBehaviour
 {
     public static AudiometryUIManager instance { get; private set; }
 
-    [SerializeField] private GameObject botonVol, botonStart, botonNext, botonExit, graphicImage;
+    [SerializeField] private GameObject botonVol, botonStart, botonNext, botonExit, graphicImage, ear, leftCross, rightCross;
     [SerializeField] private TMP_Text text, textVol;
 
     private bool left, end;
@@ -36,13 +36,17 @@ public class AudiometryUIManager : MonoBehaviour
         {
             botonVol.SetActive(false);
             botonNext.SetActive(false);
+            ear.SetActive(false);
+            leftCross.SetActive(false);
+            rightCross.SetActive(false);
+
             botonStart.SetActive(true);
             end = true;
 
             AudiometryManager.instance.StopAudiometry();
 
             text.text = "Ahora vamos a la derecha";
-            text.fontSize = 18;
+            text.alignment = TextAlignmentOptions.Center;
 
             left = false;
         }
@@ -50,6 +54,9 @@ public class AudiometryUIManager : MonoBehaviour
         {
             botonVol.SetActive(false);
             botonNext.SetActive(false);
+            ear.SetActive(false);
+            leftCross.SetActive(false);
+            rightCross.SetActive(false);
             botonExit.SetActive(true);
             end = true;
 
@@ -65,14 +72,15 @@ public class AudiometryUIManager : MonoBehaviour
         botonVol.SetActive(true);
         botonNext.SetActive(true);
         botonStart.SetActive(false);
+        ear.SetActive(true);
         end = false;
 
-        if (left)
-            text.text = "<- Izquierda";
+        if(left)
+            leftCross.SetActive(true);
         else
-            text.text = "Derecha ->";
+            rightCross.SetActive(true);
 
-        text.fontSize = 36;
+            text.text = "";
 
         AudiometryManager.instance.StartAudiometry(left);
     }
