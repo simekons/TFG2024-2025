@@ -540,3 +540,7 @@
 {"_eventId":8,"_timeStamp":1756573122985,"mSessionID_":"bd482abe-ac53-4fe3-a031-ccc904e804e4","_data":{"Event":"ShootBullet"}}
 {"_eventId":3,"_timeStamp":1756573125163,"mSessionID_":"bd482abe-ac53-4fe3-a031-ccc904e804e4","_data":{"Event":"SessionEnd"}}
 {"_eventId":1,"_timeStamp":1756573125163,"mSessionID_":"bd482abe-ac53-4fe3-a031-ccc904e804e4","_data":{"Event":"StopTracking"}}
+{"_eventId":0,"_timeStamp":1756573458776,"mSessionID_":"94f01010-d9a8-4665-885d-f4f57db9513e","_data":{"Event":"StartTracking","Game":"TFG","User":"94f01010-d9a8-4665-885d-f4f57db9513e"}}
+{"_eventId":2,"_timeStamp":1756573458777,"mSessionID_":"94f01010-d9a8-4665-885d-f4f57db9513e","_data":{"Event":"SessionStart","Session":"ed485863-5fec-44a3-98ef-23809b778775"}}
+{"_eventId":3,"_timeStamp":1756573477124,"mSessionID_":"94f01010-d9a8-4665-885d-f4f57db9513e","_data":{"Event":"SessionEnd"}}
+{"_eventId":1,"_timeStamp":1756573477124,"mSessionID_":"94f01010-d9a8-4665-885d-f4f57db9513e","_data":{"Event":"StopTracking"}}

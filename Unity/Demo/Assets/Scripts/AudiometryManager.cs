@@ -140,7 +140,7 @@ public class AudiometryManager : MonoBehaviour
         string resultados = izquierda + derecha;
 
         // Ruta para guardar el archivo
-        string path = "Assets/Python/datos.txt";
+        string path = Path.Combine(Application.streamingAssetsPath, "Audiograma", "datos.txt");
 
         // Guardar el archivo
         File.WriteAllText(path, resultados);
