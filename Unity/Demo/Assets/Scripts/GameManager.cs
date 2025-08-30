@@ -1,5 +1,6 @@
 using FMODUnity;
 using Telemetry;
+using Telemetry.Persistance;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -28,6 +29,12 @@ public class GameManager : MonoBehaviour
         leftHZ = new int[6];
         rightHZ = new int[6];
         Tracker.Instance("TFG", Telemetry.Persistance.PersistanceType.File, Telemetry.Serialization.SerializeType.JSON, "datos");
+    }
+
+    private void Update()
+    {
+        if (Tracker.getInstance() != null)
+            Tracker.getInstance().update(Time.deltaTime);
     }
 
     public void ChangeScene(string nameScene)

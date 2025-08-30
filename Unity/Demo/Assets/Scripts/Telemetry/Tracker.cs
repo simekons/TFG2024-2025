@@ -11,7 +11,7 @@ using Telemetry.Events;
 
 namespace Telemetry
 {
-    public class Tracker : MonoBehaviour
+    public class Tracker
     {
         private static Tracker _instance; // The instance of the tracker system (singleton)
         private IPersistance _persistance; //persistance where the data will be sended
@@ -63,7 +63,11 @@ namespace Telemetry
         public static Tracker Instance(string game, PersistanceType pt, SerializeType st, string fileName = "")
         {
             if (_instance == null)
+            {
                 _instance = new Tracker(game, pt, st, fileName);
+                _instance.init();
+                _instance.initSession();
+            }
             return _instance;
         }
         public static Tracker getInstance()
@@ -102,24 +106,24 @@ namespace Telemetry
         // GENERAL ----------------------------------------------------
         public void init()
         {
-            print("Tracking started . . .");
+            Debug.Log("Tracking started . . .");
             AddGameEvent(new StartTrackingEvent(mSessionID_, mGameID_));
         }
         public void end()
         {
-            print("Tracking ended . . .");
+            Debug.Log("Tracking ended . . .");
             AddGameEvent(new StopTrackingEvent());
             _persistance.Flush();
             _persistance.End();
         }
         public void initSession()
         {
-            print("Session started . . .");
+            Debug.Log("Session started . . .");
             AddGameEvent(new InitSessionEvent());
         }
         public void endSession()
         {
-            print("Session ended . . .");
+            Debug.Log("Session ended . . .");
             AddGameEvent(new EndSessionEvent());
         }
 
@@ -130,16 +134,16 @@ namespace Telemetry
         {
             for (int i = 0; i < eq.Length; i++)
             {
-                print("The volume needed for frequency " + i + " was " + eq[i] + " . . .");
+                Debug.Log("The volume needed for frequency " + i + " was " + eq[i] + " . . .");
             }
-            AddGameEvent(new Telemetry.Events.Audiometry.LeftEqEvent(eq)); 
+            AddGameEvent(new Telemetry.Events.Audiometry.LeftEqEvent(eq));
         }
 
         public void rightE(int[] eq)
         {
             for (int i = 0; i < eq.Length; i++)
             {
-                print("The volume needed for frequency " + i + " was " + eq[i] + " . . .");
+                Debug.Log("The volume needed for frequency " + i + " was " + eq[i] + " . . .");
             }
             AddGameEvent(new Telemetry.Events.Audiometry.RightEqEvent(eq));
         }
@@ -148,31 +152,31 @@ namespace Telemetry
 
         public void enemyAppearEvent(int id, string time)
         {
-            print("Enemy " + id + " just appeared . . .");
+            Debug.Log("Enemy " + id + " just appeared . . .");
             AddGameEvent(new Telemetry.Events.FPS.EnemyAppearedEvent(id, time));
         }
 
         public void enemyShotEvent(int id, string time)
         {
-            print("Enemy " + id + " just got shot . . .");
+            Debug.Log("Enemy " + id + " just got shot . . .");
             AddGameEvent(new Telemetry.Events.FPS.EnemyShotEvent(id, time));
         }
 
         public void bulletShotEvent()
         {
-            print("Bullet shot . . .");
+            Debug.Log("Bullet shot . . .");
             AddGameEvent(new Telemetry.Events.FPS.BulletShotFPSEvent());
         }
 
         public void startGameFPS()
         {
-            print("Starting FPS game . . .");
+            Debug.Log("Starting FPS game . . .");
             AddGameEvent(new Telemetry.Events.FPS.StartGameFPSEvent());
         }
 
         public void endGameFPS()
         {
-            print("Ending FPS game . . .");
+            Debug.Log("Ending FPS game . . .");
             AddGameEvent(new Telemetry.Events.FPS.EndGameFPSEvent());
         }
 
@@ -181,32 +185,32 @@ namespace Telemetry
 
         public void buttonPressedEvent(int id)
         {
-            print("Button " + id + " just got pressed . . .");
+            Debug.Log("Button " + id + " just got pressed . . .");
             AddGameEvent(new Telemetry.Events.MEMORY.ButtonAppearedEvent(id, ""));
         }
-         
+
         public void maxSequenceEvent(int id)
         {
-            print("The maximum sequence this time was " + id + " . . .");
+            Debug.Log("The maximum sequence this time was " + id + " . . .");
             AddGameEvent(new Telemetry.Events.MEMORY.MaximumSequenceEvent(id));
         }
 
         public void startGameMemory()
         {
-            print("Starting MEMORY game . . .");
+            Debug.Log("Starting MEMORY game . . .");
             AddGameEvent(new Telemetry.Events.MEMORY.StartGameMEMORYEvent());
         }
 
         public void endGameMemory()
         {
-            print("Ending MEMORY game . . .");
+            Debug.Log("Ending MEMORY game . . .");
             AddGameEvent(new Telemetry.Events.MEMORY.EndGameMEMORYEvent());
         }
 
         // MEMORY -----------------------------------------------------
 
         // EVENTOS ------------------------------------------------------------------------  
-        
+
         public void AddGameEvent(Telemetry.Events.Event e)
         {
             e.setSessionID(mSessionID_);
@@ -223,7 +227,6 @@ namespace Telemetry
                 timer = 0;
             }
         }
-
     }
 }
 

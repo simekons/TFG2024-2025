@@ -31,6 +31,7 @@ public class SoundDirectionGame : MonoBehaviour
     private void Start()
     {
         currentDelay = initialDelay;
+        Tracker.getInstance().startGameMemory();
         startNewSequence();
     }
 

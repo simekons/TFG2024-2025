@@ -13,19 +13,19 @@ namespace Telemetry.Persistance
             base(serialization)
        {
             _fileName = fileName + GetSerialization().getExtension();
-            writer = new StreamWriter(_fileName, File.Exists(_fileName));
         }
 
         public override void Flush()
         {
-            while (sessionEvents.Count != 0)
+            using (StreamWriter writer = new StreamWriter(_fileName, true))
             {
-                Event ev = sessionEvents.Dequeue();
-                string serializationString = GetSerialization().Serialize(ev);
-                writer.WriteLine(serializationString);
-                //Console.WriteLine(serializationString);
+                while (sessionEvents.Count != 0)
+                {
+                    Event ev = sessionEvents.Dequeue();
+                    string serializationString = GetSerialization().Serialize(ev);
+                    writer.WriteLine(serializationString);
+                }
             }
-            sessionEvents.Clear(); //should be empty
         }
 
         public override PersistanceType GetPersistanceType()
@@ -36,8 +36,7 @@ namespace Telemetry.Persistance
         public override void End()
         {
             sessionEvents.Clear(); //should be empty
-            writer.Close();
-        }
+        } 
 
     }
 }
