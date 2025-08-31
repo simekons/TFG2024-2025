@@ -32,7 +32,7 @@ public class AudiometryUIManager : MonoBehaviour
         while (end)
             return;
 
-        if (AudiometryManager.instance.GetSonidoActual() >= 5 && left == true)
+        if (AudiometryManager.instance.GetSonidoActual() >= 6 && left == true)
         {
             botonVol.SetActive(false);
             botonNext.SetActive(false);
@@ -50,7 +50,7 @@ public class AudiometryUIManager : MonoBehaviour
 
             left = false;
         }
-        else if (AudiometryManager.instance.GetSonidoActual() >= 5)
+        else if (AudiometryManager.instance.GetSonidoActual() >= 6)
         {
             botonVol.SetActive(false);
             botonNext.SetActive(false);

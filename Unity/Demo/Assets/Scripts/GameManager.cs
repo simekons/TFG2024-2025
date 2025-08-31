@@ -53,6 +53,8 @@ public class GameManager : MonoBehaviour
 
     public void SetAudiometry(int[] audiometryLeft, int[] audiometryRight)
     {
+        Tracker.getInstance().leftEq(leftHZ);
+        Tracker.getInstance().rightE(rightHZ);
         audiometryLeft.CopyTo(leftHZ, 0);
         audiometryRight.CopyTo(rightHZ, 0);
     }
@@ -72,8 +74,6 @@ public class GameManager : MonoBehaviour
         {
             left = leftHZ;
             right = rightHZ;
-            Tracker.getInstance().leftEq(leftHZ);
-            Tracker.getInstance().rightE(rightHZ);
             Debug.Log("Aplicando Audiometria");
         }
         else
