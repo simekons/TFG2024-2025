@@ -1,20 +1,134 @@
-{"_eventId":0,"_timeStamp":1756589637314,"mSessionID_":"dbe3c558-3ecb-46e9-b1c0-fa9623dbc7a4","_data":{"Event":"StartTracking","Game":"TFG","User":"dbe3c558-3ecb-46e9-b1c0-fa9623dbc7a4"}}
-{"_eventId":2,"_timeStamp":1756589637314,"mSessionID_":"dbe3c558-3ecb-46e9-b1c0-fa9623dbc7a4","_data":{"Event":"SessionStart","Session":"5e006605-4791-452c-a839-eb739d843d4f"}}
-{"_eventId":11,"_timeStamp":1756589646103,"mSessionID_":"dbe3c558-3ecb-46e9-b1c0-fa9623dbc7a4","_data":{"Event":"StartGameMEMORY"}}
-{"_eventId":12,"_timeStamp":1756589656248,"mSessionID_":"dbe3c558-3ecb-46e9-b1c0-fa9623dbc7a4","_data":{"Event":"ButtonAppeared","Button id: ":2,"Button appeared at time: ":""}}
-{"_eventId":14,"_timeStamp":1756589656248,"mSessionID_":"dbe3c558-3ecb-46e9-b1c0-fa9623dbc7a4","_data":{"Event":"MaxSequence","Sequence":2}}
-{"_eventId":15,"_timeStamp":1756589658072,"mSessionID_":"dbe3c558-3ecb-46e9-b1c0-fa9623dbc7a4","_data":{"Event":"EndGameMEMORY"}}
-{"_eventId":3,"_timeStamp":1756589660809,"mSessionID_":"dbe3c558-3ecb-46e9-b1c0-fa9623dbc7a4","_data":{"Event":"SessionEnd"}}
-{"_eventId":1,"_timeStamp":1756589660809,"mSessionID_":"dbe3c558-3ecb-46e9-b1c0-fa9623dbc7a4","_data":{"Event":"StopTracking"}}
-{"_eventId":0,"_timeStamp":1756589752368,"mSessionID_":"cf1f94a3-c3dd-40d2-affd-557f43f3b9a3","_data":{"Event":"StartTracking","Game":"TFG","User":"cf1f94a3-c3dd-40d2-affd-557f43f3b9a3"}}
-{"_eventId":2,"_timeStamp":1756589752368,"mSessionID_":"cf1f94a3-c3dd-40d2-affd-557f43f3b9a3","_data":{"Event":"SessionStart","Session":"128c88e8-6854-4158-b7a5-b87dc729f040"}}
-{"_eventId":11,"_timeStamp":1756589762561,"mSessionID_":"cf1f94a3-c3dd-40d2-affd-557f43f3b9a3","_data":{"Event":"StartGameMEMORY"}}
-{"_eventId":12,"_timeStamp":1756589773175,"mSessionID_":"cf1f94a3-c3dd-40d2-affd-557f43f3b9a3","_data":{"Event":"ButtonAppeared","Button id: ":0,"Button appeared at time: ":""}}
-{"_eventId":14,"_timeStamp":1756589773175,"mSessionID_":"cf1f94a3-c3dd-40d2-affd-557f43f3b9a3","_data":{"Event":"MaxSequence","Sequence":2}}
-{"_eventId":15,"_timeStamp":1756589774359,"mSessionID_":"cf1f94a3-c3dd-40d2-affd-557f43f3b9a3","_data":{"Event":"EndGameMEMORY"}}
-{"_eventId":11,"_timeStamp":1756589775640,"mSessionID_":"cf1f94a3-c3dd-40d2-affd-557f43f3b9a3","_data":{"Event":"StartGameMEMORY"}}
-{"_eventId":12,"_timeStamp":1756589785750,"mSessionID_":"cf1f94a3-c3dd-40d2-affd-557f43f3b9a3","_data":{"Event":"ButtonAppeared","Button id: ":1,"Button appeared at time: ":""}}
-{"_eventId":14,"_timeStamp":1756589785750,"mSessionID_":"cf1f94a3-c3dd-40d2-affd-557f43f3b9a3","_data":{"Event":"MaxSequence","Sequence":2}}
-{"_eventId":15,"_timeStamp":1756589787089,"mSessionID_":"cf1f94a3-c3dd-40d2-affd-557f43f3b9a3","_data":{"Event":"EndGameMEMORY"}}
-{"_eventId":3,"_timeStamp":1756589788055,"mSessionID_":"cf1f94a3-c3dd-40d2-affd-557f43f3b9a3","_data":{"Event":"SessionEnd"}}
-{"_eventId":1,"_timeStamp":1756589788055,"mSessionID_":"cf1f94a3-c3dd-40d2-affd-557f43f3b9a3","_data":{"Event":"StopTracking"}}
+{"_eventId":0,"_timeStamp":1756627775751,"mSessionID_":"9521338c-be8d-4617-9d1e-81047af209e2","_data":{"Event":"StartTracking","Game":"TFG","User":"9521338c-be8d-4617-9d1e-81047af209e2"}}
+{"_eventId":2,"_timeStamp":1756627775752,"mSessionID_":"9521338c-be8d-4617-9d1e-81047af209e2","_data":{"Event":"SessionStart","Session":"a0b57f3c-78b8-4a5a-b74d-611d2c00aca9"}}
+{"_eventId":4,"_timeStamp":1756627786622,"mSessionID_":"9521338c-be8d-4617-9d1e-81047af209e2","_data":{"Event":"LeftEq","lefteq":[10,20,10,0,0,0]}}
+{"_eventId":5,"_timeStamp":1756627786622,"mSessionID_":"9521338c-be8d-4617-9d1e-81047af209e2","_data":{"Event":"RightEq","righteq":[10,20,10,0,20,0]}}
+{"_eventId":11,"_timeStamp":1756627787654,"mSessionID_":"9521338c-be8d-4617-9d1e-81047af209e2","_data":{"Event":"StartGameMEMORY"}}
+{"_eventId":13,"_timeStamp":1756627797889,"mSessionID_":"9521338c-be8d-4617-9d1e-81047af209e2","_data":{"Event":"SequenceCorrect","Sequence correct X times: ":0}}
+{"_eventId":12,"_timeStamp":1756627804717,"mSessionID_":"9521338c-be8d-4617-9d1e-81047af209e2","_data":{"Event":"SequenceFailed","Sequence failed X times: ":1}}
+{"_eventId":12,"_timeStamp":1756627813582,"mSessionID_":"9521338c-be8d-4617-9d1e-81047af209e2","_data":{"Event":"SequenceFailed","Sequence failed X times: ":2}}
+{"_eventId":3,"_timeStamp":1756627818288,"mSessionID_":"9521338c-be8d-4617-9d1e-81047af209e2","_data":{"Event":"SessionEnd"}}
+{"_eventId":1,"_timeStamp":1756627818288,"mSessionID_":"9521338c-be8d-4617-9d1e-81047af209e2","_data":{"Event":"StopTracking"}}
+{"_eventId":0,"_timeStamp":1756628044641,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"StartTracking","Game":"TFG","User":"fdfd692b-f983-42b7-9064-2c03e14851f5"}}
+{"_eventId":2,"_timeStamp":1756628044642,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"SessionStart","Session":"0d159e45-b058-472b-a0b5-1da5c1eed7b9"}}
+{"_eventId":4,"_timeStamp":1756628056793,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"LeftEq","lefteq":[0,20,10,40,20,0]}}
+{"_eventId":5,"_timeStamp":1756628056794,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"RightEq","righteq":[0,10,20,10,0,0]}}
+{"_eventId":11,"_timeStamp":1756628057911,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"StartGameMEMORY"}}
+{"_eventId":13,"_timeStamp":1756628068406,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"SequenceCorrect","Sequence correct X times: ":1}}
+{"_eventId":13,"_timeStamp":1756628075894,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"SequenceCorrect","Sequence correct X times: ":2}}
+{"_eventId":13,"_timeStamp":1756628084527,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"SequenceCorrect","Sequence correct X times: ":3}}
+{"_eventId":12,"_timeStamp":1756628093447,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"SequenceFailed","Sequence failed X times: ":1}}
+{"_eventId":13,"_timeStamp":1756628102428,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"SequenceCorrect","Sequence correct X times: ":4}}
+{"_eventId":13,"_timeStamp":1756628112057,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"SequenceCorrect","Sequence correct X times: ":5}}
+{"_eventId":13,"_timeStamp":1756628121971,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"SequenceCorrect","Sequence correct X times: ":6}}
+{"_eventId":13,"_timeStamp":1756628132273,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"SequenceCorrect","Sequence correct X times: ":7}}
+{"_eventId":13,"_timeStamp":1756628142242,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"SequenceCorrect","Sequence correct X times: ":8}}
+{"_eventId":13,"_timeStamp":1756628153360,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"SequenceCorrect","Sequence correct X times: ":9}}
+{"_eventId":14,"_timeStamp":1756628153361,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"MaxSequence","Sequence":6}}
+{"_eventId":15,"_timeStamp":1756628157256,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"EndGameMEMORY"}}
+{"_eventId":3,"_timeStamp":1756628159224,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"SessionEnd"}}
+{"_eventId":1,"_timeStamp":1756628159224,"mSessionID_":"fdfd692b-f983-42b7-9064-2c03e14851f5","_data":{"Event":"StopTracking"}}
+{"_eventId":0,"_timeStamp":1756628492697,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"StartTracking","Game":"TFG","User":"9403670d-52a6-43ae-80c4-26fede1ddbb0"}}
+{"_eventId":2,"_timeStamp":1756628492698,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"SessionStart","Session":"41ea6eb9-6a27-45e8-b997-02cd42970210"}}
+{"_eventId":4,"_timeStamp":1756628502400,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"LeftEq","lefteq":[0,0,20,0,0,10]}}
+{"_eventId":5,"_timeStamp":1756628502401,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"RightEq","righteq":[20,0,10,0,10,0]}}
+{"_eventId":6,"_timeStamp":1756628505608,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"StartGameFPS"}}
+{"_eventId":7,"_timeStamp":1756628508609,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":1,"Enemy appeared at time: ":"15,36921"}}
+{"_eventId":7,"_timeStamp":1756628511617,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":2,"Enemy appeared at time: ":"18,3776"}}
+{"_eventId":8,"_timeStamp":1756628512761,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628512767,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":2,"Enemy killed at time: ":"19,52615"}}
+{"_eventId":7,"_timeStamp":1756628514617,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":3,"Enemy appeared at time: ":"21,37816"}}
+{"_eventId":7,"_timeStamp":1756628517620,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":4,"Enemy appeared at time: ":"24,38014"}}
+{"_eventId":8,"_timeStamp":1756628519473,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":8,"_timeStamp":1756628520135,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628520137,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":4,"Enemy killed at time: ":"26,89762"}}
+{"_eventId":7,"_timeStamp":1756628520625,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":5,"Enemy appeared at time: ":"27,38548"}}
+{"_eventId":8,"_timeStamp":1756628520724,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628520742,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":5,"Enemy killed at time: ":"27,50192"}}
+{"_eventId":8,"_timeStamp":1756628521644,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":8,"_timeStamp":1756628521907,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":8,"_timeStamp":1756628522437,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":8,"_timeStamp":1756628523164,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":8,"_timeStamp":1756628523388,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628523391,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":5,"Enemy killed at time: ":"30,15192"}}
+{"_eventId":7,"_timeStamp":1756628523626,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":6,"Enemy appeared at time: ":"30,3866"}}
+{"_eventId":8,"_timeStamp":1756628525622,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628525625,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":6,"Enemy killed at time: ":"32,38498"}}
+{"_eventId":7,"_timeStamp":1756628526638,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":7,"Enemy appeared at time: ":"33,39786"}}
+{"_eventId":8,"_timeStamp":1756628527118,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628527124,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":7,"Enemy killed at time: ":"33,88464"}}
+{"_eventId":7,"_timeStamp":1756628529640,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":8,"Enemy appeared at time: ":"36,40118"}}
+{"_eventId":8,"_timeStamp":1756628530927,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628530929,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":8,"Enemy killed at time: ":"37,68987"}}
+{"_eventId":7,"_timeStamp":1756628532654,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":9,"Enemy appeared at time: ":"39,41439"}}
+{"_eventId":8,"_timeStamp":1756628535207,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628535210,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":9,"Enemy killed at time: ":"41,9699"}}
+{"_eventId":7,"_timeStamp":1756628535661,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":10,"Enemy appeared at time: ":"42,42104"}}
+{"_eventId":8,"_timeStamp":1756628536849,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":8,"_timeStamp":1756628537876,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628537882,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":10,"Enemy killed at time: ":"44,64236"}}
+{"_eventId":7,"_timeStamp":1756628538678,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":11,"Enemy appeared at time: ":"45,43827"}}
+{"_eventId":8,"_timeStamp":1756628539754,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":8,"_timeStamp":1756628540512,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628540518,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":11,"Enemy killed at time: ":"47,27842"}}
+{"_eventId":7,"_timeStamp":1756628541684,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":12,"Enemy appeared at time: ":"48,44383"}}
+{"_eventId":8,"_timeStamp":1756628541922,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628541924,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":12,"Enemy killed at time: ":"48,68501"}}
+{"_eventId":7,"_timeStamp":1756628544684,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":13,"Enemy appeared at time: ":"51,44503"}}
+{"_eventId":8,"_timeStamp":1756628545806,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628545812,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":13,"Enemy killed at time: ":"52,57183"}}
+{"_eventId":7,"_timeStamp":1756628547690,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":14,"Enemy appeared at time: ":"54,45057"}}
+{"_eventId":8,"_timeStamp":1756628549069,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628549076,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":14,"Enemy killed at time: ":"55,836"}}
+{"_eventId":7,"_timeStamp":1756628550695,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":15,"Enemy appeared at time: ":"57,4552"}}
+{"_eventId":8,"_timeStamp":1756628551691,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628551694,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":15,"Enemy killed at time: ":"58,45407"}}
+{"_eventId":8,"_timeStamp":1756628552160,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628552165,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":15,"Enemy killed at time: ":"58,92583"}}
+{"_eventId":7,"_timeStamp":1756628553708,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":16,"Enemy appeared at time: ":"60,46883"}}
+{"_eventId":7,"_timeStamp":1756628556714,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":17,"Enemy appeared at time: ":"63,4745"}}
+{"_eventId":8,"_timeStamp":1756628558497,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628558503,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":17,"Enemy killed at time: ":"65,26273"}}
+{"_eventId":7,"_timeStamp":1756628559714,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":18,"Enemy appeared at time: ":"66,47496"}}
+{"_eventId":7,"_timeStamp":1756628562720,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":19,"Enemy appeared at time: ":"69,48009"}}
+{"_eventId":8,"_timeStamp":1756628563821,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628563826,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":19,"Enemy killed at time: ":"70,58724"}}
+{"_eventId":7,"_timeStamp":1756628565721,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":20,"Enemy appeared at time: ":"72,48119"}}
+{"_eventId":8,"_timeStamp":1756628567864,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628567869,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":20,"Enemy killed at time: ":"74,6292"}}
+{"_eventId":7,"_timeStamp":1756628568762,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":21,"Enemy appeared at time: ":"75,52193"}}
+{"_eventId":8,"_timeStamp":1756628568831,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628568837,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":21,"Enemy killed at time: ":"75,59698"}}
+{"_eventId":8,"_timeStamp":1756628571716,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628571722,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":21,"Enemy killed at time: ":"78,48199"}}
+{"_eventId":7,"_timeStamp":1756628571764,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":22,"Enemy appeared at time: ":"78,52496"}}
+{"_eventId":8,"_timeStamp":1756628574173,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628574178,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":22,"Enemy killed at time: ":"80,93858"}}
+{"_eventId":7,"_timeStamp":1756628574765,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":23,"Enemy appeared at time: ":"81,52528"}}
+{"_eventId":8,"_timeStamp":1756628575902,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628575904,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":23,"Enemy killed at time: ":"82,66489"}}
+{"_eventId":8,"_timeStamp":1756628576132,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628576138,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":23,"Enemy killed at time: ":"82,89865"}}
+{"_eventId":7,"_timeStamp":1756628577765,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":24,"Enemy appeared at time: ":"84,52564"}}
+{"_eventId":8,"_timeStamp":1756628579627,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628579632,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":24,"Enemy killed at time: ":"86,39294"}}
+{"_eventId":7,"_timeStamp":1756628580776,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":25,"Enemy appeared at time: ":"87,53725"}}
+{"_eventId":8,"_timeStamp":1756628582478,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":8,"_timeStamp":1756628583143,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":7,"_timeStamp":1756628583823,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":26,"Enemy appeared at time: ":"90,58208"}}
+{"_eventId":8,"_timeStamp":1756628583836,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628583843,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":26,"Enemy killed at time: ":"90,60296"}}
+{"_eventId":8,"_timeStamp":1756628586393,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628586398,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":26,"Enemy killed at time: ":"93,1591"}}
+{"_eventId":7,"_timeStamp":1756628586824,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":27,"Enemy appeared at time: ":"93,58488"}}
+{"_eventId":7,"_timeStamp":1756628589827,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":28,"Enemy appeared at time: ":"96,5879"}}
+{"_eventId":8,"_timeStamp":1756628592444,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628592451,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":28,"Enemy killed at time: ":"99,21078"}}
+{"_eventId":7,"_timeStamp":1756628592833,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":29,"Enemy appeared at time: ":"99,59325"}}
+{"_eventId":8,"_timeStamp":1756628594280,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":9,"_timeStamp":1756628594285,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyShot","Enemy id: ":29,"Enemy killed at time: ":"101,0456"}}
+{"_eventId":7,"_timeStamp":1756628595833,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EnemyAppeared","Enemy id: ":30,"Enemy appeared at time: ":"102,5935"}}
+{"_eventId":8,"_timeStamp":1756628599811,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"ShootBullet"}}
+{"_eventId":10,"_timeStamp":1756628599889,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"EndGameFPS"}}
+{"_eventId":11,"_timeStamp":1756628602389,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"StartGameMEMORY"}}
+{"_eventId":3,"_timeStamp":1756628667889,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"SessionEnd"}}
+{"_eventId":1,"_timeStamp":1756628667889,"mSessionID_":"9403670d-52a6-43ae-80c4-26fede1ddbb0","_data":{"Event":"StopTracking"}}

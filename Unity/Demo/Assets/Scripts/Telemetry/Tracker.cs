@@ -183,10 +183,16 @@ namespace Telemetry
         // FPS --------------------------------------------------------
         // MEMORY -----------------------------------------------------
 
-        public void buttonPressedEvent(int id)
+        public void sequenceFailedEvent(int id)
         {
-            Debug.Log("Button " + id + " just got pressed . . .");
-            AddGameEvent(new Telemetry.Events.MEMORY.ButtonAppearedEvent(id, ""));
+            Debug.Log("Sequence failed X times: " + id);
+            AddGameEvent(new Telemetry.Events.MEMORY.SequenceFailed(id));
+        }
+
+        public void sequenceCorrectEvent(int id)
+        {
+            Debug.Log("Sequence correct X times: " + id);
+            AddGameEvent(new Telemetry.Events.MEMORY.SequenceCorrect(id));
         }
 
         public void maxSequenceEvent(int id)

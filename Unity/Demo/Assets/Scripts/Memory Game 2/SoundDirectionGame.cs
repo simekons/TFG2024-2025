@@ -25,6 +25,9 @@ public class SoundDirectionGame : MonoBehaviour
     private bool isPlayingSequence = false;
     private bool justFailed = false;
 
+    private int failed = 0;
+    private int correct = 0;
+
     private enum GameState { PlayingSequence, WaitingForInput, Idle, ShowingMessage }
     private GameState state = GameState.Idle;
 
@@ -118,7 +121,6 @@ public class SoundDirectionGame : MonoBehaviour
 
     private void checkInput(int input)
     {
-        Tracker.getInstance().buttonPressedEvent(input);
         if (sequence[currentInputIndex] == input)
         {
             Debug.Log("SEQUENCE: " + sequence.Count);
@@ -132,6 +134,8 @@ public class SoundDirectionGame : MonoBehaviour
 
     private void successfulSequence()
     {
+        correct++;
+        Tracker.getInstance().sequenceCorrectEvent(correct);
         Debug.Log("Correcto!");
 
         roundsAtCurrentLength++;
@@ -161,7 +165,9 @@ public class SoundDirectionGame : MonoBehaviour
 
     private void wrongSequence()
     {
+        failed++;
         Debug.Log("Fallaste, reiniciando secuencia");
+        Tracker.getInstance().sequenceFailedEvent(failed);
         justFailed = true;
         state = GameState.Idle;
         startNewSequence();

@@ -81,8 +81,8 @@
     <Compile Include="Events\FPS\EnemyAppearedEvent.cs" />
     <Compile Include="Events\FPS\EnemyShotEvent.cs" />
     <Compile Include="Events\InitSessionEvent.cs" />
-    <Compile Include="Events\MEMORY\ButtonAppearedEvent.cs" />
-    <Compile Include="Events\MEMORY\ButtonPressedEvent.cs" />
+    <Compile Include="Events\MEMORY\SequenceFailed.cs" />
+    <Compile Include="Events\MEMORY\SequenceCorrect.cs" />
     <Compile Include="Events\MEMORY\EndGameMEMORYEvent.cs" />
     <Compile Include="Events\MEMORY\MaximumSequenceEvent.cs" />
     <Compile Include="Events\MEMORY\StartGameMEMORYEvent.cs" />

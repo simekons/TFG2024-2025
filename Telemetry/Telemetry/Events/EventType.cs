@@ -23,8 +23,8 @@ namespace Telemetry.Events
         
         // MEMORY
         StartGameMEMORY,        //
-        ButtonAppeared,     //
-        ButtonPressed,      //
+        SequenceFailed,     //
+        SequenceCorrect,      //
         MaxSequence,      //      
         EndGameMEMORY,     //
         
