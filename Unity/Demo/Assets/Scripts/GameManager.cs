@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
 
     private int[] leftHZ;
     private int[] rightHZ;
+    private bool aplyAudiometry;
 
     private int _enemies = 0;
 
@@ -28,6 +29,8 @@ public class GameManager : MonoBehaviour
 
         leftHZ = new int[6];
         rightHZ = new int[6];
+        aplyAudiometry = false;
+
         Tracker.Instance("TFG", Telemetry.Persistance.PersistanceType.File, Telemetry.Serialization.SerializeType.JSON, "datos");
     }
 
@@ -70,6 +73,8 @@ public class GameManager : MonoBehaviour
         int[] right = new int[6];
         int[] frecuencias = new int[] { 250, 500, 1000, 2000, 4000, 8000 };
 
+        aplyAudiometry = apply;
+
         if (apply)
         {
             left = leftHZ;
@@ -97,6 +102,11 @@ public class GameManager : MonoBehaviour
     public void addEnemy()
     {
         _enemies++;
+    }
+
+    public bool GetToogleButton()
+    {
+        return aplyAudiometry;
     }
 
     public int getEnemies()
