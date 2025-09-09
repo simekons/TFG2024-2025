@@ -46,14 +46,14 @@ public class DSP_Test : MonoBehaviour
 
         if (result != RESULT.OK || !channelGroup.hasHandle())
         {
-            print($"❌ El evento {emitter.gameObject.name} no tiene un canal de audio activo.");
+            print($"El evento {emitter.gameObject.name} no tiene un canal de audio activo.");
             return;
         }
 
         // Verificar que el DSP está inicializado
         if (!_dsp.hasHandle())
         {
-            print("⚠️ DSP no inicializado. Creando un nuevo DSP...");
+            print("DSP no inicializado. Creando un nuevo DSP..-");
             fmodSystem.createDSPByType(DSP_TYPE.FFT, out _dsp);
             _dsp.setParameterInt((int)DSP_FFT.WINDOWSIZE, _windowSize * 2);
         }
@@ -75,17 +75,17 @@ public class DSP_Test : MonoBehaviour
 
         if (!found)
         {
-            print($"⚠️ El DSP FFT no está vinculado al canal del evento {emitter.gameObject.name}. Intentando agregarlo...");
+            print($"El DSP FFT no está vinculado al canal del evento {emitter.gameObject.name}. Intentando agregarlo...");
 
             RESULT addResult = channelGroup.addDSP(0, _dsp);
 
             if (addResult != RESULT.OK)
             {
-                print($"❌ Error al agregar el DSP FFT al canal: {addResult}");
+                print($"Error al agregar el DSP FFT al canal: {addResult}");
                 return;
             }
 
-            print($"✅ DSP FFT agregado correctamente al canal del evento {emitter.gameObject.name}.");
+            print($"DSP FFT agregado correctamente al canal del evento {emitter.gameObject.name} ");
         }
 
         // Obtener datos FFT
@@ -102,21 +102,20 @@ public class DSP_Test : MonoBehaviour
             {
                 DSP_PARAMETER_FFT fftData = (DSP_PARAMETER_FFT)System.Runtime.InteropServices.Marshal.PtrToStructure(data, typeof(DSP_PARAMETER_FFT));
 
-                // 🔥 Corrección: Verificar numchannels antes de procesar datos
                 if (fftData.numchannels == 0 || fftData.spectrum == null || fftData.spectrum.Length == 0 || fftData.spectrum[0] == null)
                 {
-                    print($"⚠️ FFT no ha generado datos aún o numchannels es 0 para {emitter.gameObject.name}. Reiniciando el DSP...");
+                    print($"FFT no ha generado datos aún o numchannels es 0 para {emitter.gameObject.name}. Reiniciando el DSP...");
 
                     // Intentar reasignar el DSP si el canal cambió
                     RESULT reassignResult = instance.getChannelGroup(out ChannelGroup newChannelGroup);
                     if (reassignResult == RESULT.OK && newChannelGroup.hasHandle())
                     {
-                        print($"🔄 Reasignando DSP al nuevo ChannelGroup para {emitter.gameObject.name}.");
+                        print($"Reasignando DSP al nuevo ChannelGroup para {emitter.gameObject.name}.");
                         newChannelGroup.addDSP(0, _dsp);
                     }
                     else
                     {
-                        print($"❌ No se pudo reasignar DSP para {emitter.gameObject.name}, error: {reassignResult}");
+                        print($"No se pudo reasignar DSP para {emitter.gameObject.name}, error: {reassignResult}");
                     }
 
                     return; // Salimos y esperamos al siguiente frame
@@ -136,7 +135,7 @@ public class DSP_Test : MonoBehaviour
                     if (maxAmplitude > 0)
                     {
                         float peakFrequency = getPeakFrequency(spectrumData);
-                        print($"🔊 Sonido en {emitter.gameObject.name}: Frecuencia Pico: {peakFrequency} Hz");
+                        print($"Sonido en {emitter.gameObject.name}: Frecuencia Pico: {peakFrequency} Hz");
                     }
                     else
                     {
@@ -150,12 +149,12 @@ public class DSP_Test : MonoBehaviour
             }
             catch (System.Exception ex)
             {
-                print($"❌ Error al convertir datos FFT: {ex.Message}");
+                print($"Error al convertir datos FFT: {ex.Message}");
             }
         }
         else
         {
-            print($"🚨 No se pudo obtener datos FFT para {emitter.gameObject.name}, error: {result}");
+            print($"No se pudo obtener datos FFT para {emitter.gameObject.name}, error: {result}");
         }
 
     }
@@ -206,7 +205,7 @@ public class DSP_Test : MonoBehaviour
 
     private IEnumerator WaitForChannelGroup()
     {
-        print("🕒 Esperando a que FMOD asigne un canal...");
+        print("Esperando a que FMOD asigne un canal...");
 
         float waitTime = 0f;
         while (waitTime < 1f) // Esperamos hasta 1 segundo
@@ -214,7 +213,7 @@ public class DSP_Test : MonoBehaviour
             RESULT result = _event.getChannelGroup(out _channel);
             if (result == RESULT.OK && _channel.hasHandle())
             {
-                print("✅ ChannelGroup obtenido correctamente, agregando DSP.");
+                print("ChannelGroup obtenido correctamente, agregando DSP.");
                 break;
             }
 
@@ -224,7 +223,7 @@ public class DSP_Test : MonoBehaviour
 
         if (!_channel.hasHandle())
         {
-            print("❌ No se pudo obtener el ChannelGroup después de 1 segundo.");
+            print("No se pudo obtener el ChannelGroup después de 1 segundo.");
             yield break;
         }
 
@@ -232,7 +231,7 @@ public class DSP_Test : MonoBehaviour
         RESULT dspResult = FMODUnity.RuntimeManager.CoreSystem.createDSPByType(FMOD.DSP_TYPE.FFT, out _dsp);
         if (dspResult != RESULT.OK)
         {
-            print($"❌ Error al crear el DSP FFT: {dspResult}");
+            print($"Error al crear el DSP FFT: {dspResult}");
             yield break;
         }
 
@@ -243,11 +242,11 @@ public class DSP_Test : MonoBehaviour
         RESULT addResult = _channel.addDSP(0, _dsp);
         if (addResult != RESULT.OK)
         {
-            print($"❌ Error al agregar el DSP FFT al canal: {addResult}");
+            print($"Error al agregar el DSP FFT al canal: {addResult}");
         }
         else
         {
-            print("✅ DSP FFT agregado correctamente");
+            print("DSP FFT agregado correctamente");
 
         }
     }
