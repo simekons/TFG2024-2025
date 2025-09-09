@@ -12,5 +12,7 @@ public class ToggleButton : MonoBehaviour
         button = GetComponent<Toggle>();
 
         button.onValueChanged.AddListener(GameManager.Instance.ApplyAudiometryToGlobalFrequencies);
+
+        button.isOn = GameManager.Instance.GetToogleButton();
     }
 }

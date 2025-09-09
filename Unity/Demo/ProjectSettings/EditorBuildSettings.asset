@@ -9,21 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MENU.unity
     guid: cac5cbc65f833e34f979b9a85dee69f6
   - enabled: 1
-    path: Assets/Scenes/MEM_1.unity
-    guid: 142615bdc91207c47a90cbc83270303f
-  - enabled: 1
-    path: Assets/Scenes/MEM_2.unity
-    guid: a7247c3fe35e6a446892e6df54e943aa
-  - enabled: 1
-    path: Assets/Scenes/FPS_1.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/FPS_2.unity
-    guid: f58dd5b0abd9549459c3381dec54e571
-  - enabled: 0
-    path: Assets/Scenes/AUDIOMETRIA(Prueba).unity
-    guid: c4c802899b995bc4d95549cb9b8f95b4
-  - enabled: 1
     path: Assets/Scenes/AUDIOMETRIA.unity
     guid: 74f55bf811a74d94ca38e3e106d11b11
   - enabled: 1
