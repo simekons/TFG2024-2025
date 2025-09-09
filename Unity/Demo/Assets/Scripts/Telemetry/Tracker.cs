@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using Palmmedia.ReportGenerator.Core.Common;
 using System.Xml.Serialization;
 using Telemetry.Persistance;
 using Telemetry.Serialization;
